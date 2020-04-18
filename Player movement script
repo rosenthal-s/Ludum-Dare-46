@@ -2,11 +2,11 @@ extends KinematicBody2D
 
 var velocity = Vector2.ZERO
 var pathVector = Vector2.ZERO
-const MAX_SPEED = 70
-const ACCELERATION = 200 * 60
+const MAX_SPEED = 80
+const ACCELERATION = 150 * 60
 const FRICTION = 60 * 60
 const GRAVITY = 25
-const DEADZONE = 200
+const DEADZONE = 150
 
 func _physics_process(delta):
 	var mousePos = Vector2()
