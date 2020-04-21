@@ -133,14 +133,24 @@ animations = [ {
 "name": "NW",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 12 ), ExtResource( 13 ) ],
+"frames": [ ExtResource( 17 ), ExtResource( 18 ) ],
 "loop": true,
-"name": "SW",
+"name": "S",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 11 ), ExtResource( 10 ) ],
+"loop": true,
+"name": "SE",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 4 ), ExtResource( 3 ) ],
 "loop": true,
 "name": "E",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 12 ), ExtResource( 13 ) ],
+"loop": true,
+"name": "SW",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 7 ), ExtResource( 1 ) ],
@@ -151,16 +161,6 @@ animations = [ {
 "frames": [ ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ) ],
 "loop": true,
 "name": "N",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 17 ), ExtResource( 18 ) ],
-"loop": true,
-"name": "S",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 11 ), ExtResource( 10 ) ],
-"loop": true,
-"name": "SE",
 "speed": 5.0
 } ]
 
@@ -175,16 +175,6 @@ animations = [ {
 "name": "44",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 55 ) ],
-"loop": true,
-"name": "15",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 90 ) ],
-"loop": true,
-"name": "27",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 67 ) ],
 "loop": true,
 "name": "51",
@@ -195,11 +185,6 @@ animations = [ {
 "name": "53",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 75 ) ],
-"loop": true,
-"name": "41",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 92 ) ],
 "loop": true,
 "name": "28",
@@ -208,21 +193,6 @@ animations = [ {
 "frames": [ ExtResource( 76 ) ],
 "loop": true,
 "name": "46",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 64 ) ],
-"loop": true,
-"name": "55",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 46 ) ],
-"loop": true,
-"name": "19",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 52 ) ],
-"loop": true,
-"name": "0",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 37 ) ],
@@ -245,214 +215,39 @@ animations = [ {
 "name": "52",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 56 ) ],
+"frames": [ ExtResource( 75 ) ],
 "loop": true,
-"name": "1",
+"name": "41",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 50 ) ],
+"frames": [ ExtResource( 64 ) ],
 "loop": true,
-"name": "11",
+"name": "55",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 53 ) ],
+"frames": [ ExtResource( 90 ) ],
 "loop": true,
-"name": "5",
+"name": "27",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 65 ) ],
+"frames": [ ExtResource( 46 ) ],
 "loop": true,
-"name": "58",
+"name": "19",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 77 ) ],
+"frames": [ ExtResource( 52 ) ],
 "loop": true,
-"name": "48",
+"name": "0",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 93 ) ],
+"frames": [ ExtResource( 55 ) ],
 "loop": true,
-"name": "29",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 89 ) ],
-"loop": true,
-"name": "26",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 47 ) ],
-"loop": true,
-"name": "20",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 60 ) ],
-"loop": true,
-"name": "42",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 42 ) ],
-"loop": true,
-"name": "14",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 94 ) ],
-"loop": true,
-"name": "25",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 79 ) ],
-"loop": true,
-"name": "40",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 44 ) ],
-"loop": true,
-"name": "17",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 66 ) ],
-"loop": true,
-"name": "43",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 85 ) ],
-"loop": true,
-"name": "32",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 91 ) ],
-"loop": true,
-"name": "30",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 86 ) ],
-"loop": true,
-"name": "31",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 84 ) ],
-"loop": true,
-"name": "39",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 71 ) ],
-"loop": true,
-"name": "56",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 41 ) ],
-"loop": true,
-"name": "13",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 97 ) ],
-"loop": true,
-"name": "24",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 95 ) ],
-"loop": true,
-"name": "22",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 54 ) ],
-"loop": true,
-"name": "10",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 81 ) ],
-"loop": true,
-"name": "38",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 68 ) ],
-"loop": true,
-"name": "57",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 62 ) ],
-"loop": true,
-"name": "54",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 39 ) ],
-"loop": true,
-"name": "8",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 82 ) ],
-"loop": true,
-"name": "35",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 88 ) ],
-"loop": true,
-"name": "33",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 96 ) ],
-"loop": true,
-"name": "23",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 38 ) ],
-"loop": true,
-"name": "2",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 74 ) ],
-"loop": true,
-"name": "45",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 61 ) ],
-"loop": true,
-"name": "47",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 63 ) ],
-"loop": true,
-"name": "49",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 80 ) ],
-"loop": true,
-"name": "36",
+"name": "15",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 45 ) ],
 "loop": true,
 "name": "6",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 87 ) ],
-"loop": true,
-"name": "34",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 57 ) ],
-"loop": true,
-"name": "4",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 40 ) ],
-"loop": true,
-"name": "18",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 51 ) ],
-"loop": true,
-"name": "3",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 43 ) ],
-"loop": true,
-"name": "12",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 83 ) ],
-"loop": true,
-"name": "37",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 78 ) ],
@@ -465,6 +260,81 @@ animations = [ {
 "name": "59",
 "speed": 5.0
 }, {
+"frames": [ ExtResource( 42 ) ],
+"loop": true,
+"name": "14",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 91 ) ],
+"loop": true,
+"name": "30",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 41 ) ],
+"loop": true,
+"name": "13",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 47 ) ],
+"loop": true,
+"name": "20",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 71 ) ],
+"loop": true,
+"name": "56",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 38 ) ],
+"loop": true,
+"name": "2",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 88 ) ],
+"loop": true,
+"name": "33",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 77 ) ],
+"loop": true,
+"name": "48",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 81 ) ],
+"loop": true,
+"name": "38",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 94 ) ],
+"loop": true,
+"name": "25",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 63 ) ],
+"loop": true,
+"name": "49",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 80 ) ],
+"loop": true,
+"name": "36",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 85 ) ],
+"loop": true,
+"name": "32",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 83 ) ],
+"loop": true,
+"name": "37",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 50 ) ],
+"loop": true,
+"name": "11",
+"speed": 5.0
+}, {
 "frames": [ ExtResource( 72 ) ],
 "loop": true,
 "name": "50",
@@ -474,29 +344,159 @@ animations = [ {
 "loop": true,
 "name": "16",
 "speed": 5.0
+}, {
+"frames": [ ExtResource( 96 ) ],
+"loop": true,
+"name": "23",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 53 ) ],
+"loop": true,
+"name": "5",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 86 ) ],
+"loop": true,
+"name": "31",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 54 ) ],
+"loop": true,
+"name": "10",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 65 ) ],
+"loop": true,
+"name": "58",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 60 ) ],
+"loop": true,
+"name": "42",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 62 ) ],
+"loop": true,
+"name": "54",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 87 ) ],
+"loop": true,
+"name": "34",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 40 ) ],
+"loop": true,
+"name": "18",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 56 ) ],
+"loop": true,
+"name": "1",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 97 ) ],
+"loop": true,
+"name": "24",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 66 ) ],
+"loop": true,
+"name": "43",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 61 ) ],
+"loop": true,
+"name": "47",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 79 ) ],
+"loop": true,
+"name": "40",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 39 ) ],
+"loop": true,
+"name": "8",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 93 ) ],
+"loop": true,
+"name": "29",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 44 ) ],
+"loop": true,
+"name": "17",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 84 ) ],
+"loop": true,
+"name": "39",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 82 ) ],
+"loop": true,
+"name": "35",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 95 ) ],
+"loop": true,
+"name": "22",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 68 ) ],
+"loop": true,
+"name": "57",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 89 ) ],
+"loop": true,
+"name": "26",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 74 ) ],
+"loop": true,
+"name": "45",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 51 ) ],
+"loop": true,
+"name": "3",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 57 ) ],
+"loop": true,
+"name": "4",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 43 ) ],
+"loop": true,
+"name": "12",
+"speed": 5.0
 } ]
 
 [sub_resource type="SpriteFrames" id=4]
 animations = [ {
-"frames": [ ExtResource( 99 ) ],
-"loop": true,
-"name": "pointing",
-"speed": 5.0
-}, {
 "frames": [  ],
 "loop": true,
 "name": "blank",
 "speed": 5.0
+}, {
+"frames": [ ExtResource( 99 ) ],
+"loop": true,
+"name": "pointing",
+"speed": 5.0
 } ]
 
-[sub_resource type="ImageTexture" id=10]
+[sub_resource type="ImageTexture" id=5]
 
-[sub_resource type="Curve2D" id=5]
+[sub_resource type="Curve2D" id=6]
 _data = {
 "points": PoolVector2Array( 0, 0, 0, 0, 448.858, 1634.84, 0, 0, 0, 0, 456.158, 1652.66, 0, 0, 0, 0, 472.801, 1655.58, 0, 0, 0, 0, 474.261, 1659.66, 0, 0, 0, 0, 481.853, 1669.01, 0, 0, 0, 0, 495.284, 1671.05, 0, 0, 0, 0, 505.504, 1674.56, 0, 0, 0, 0, 510.76, 1680.1, 0, 0, 0, 0, 519.227, 1686.53, 0, 0, 0, 0, 531.783, 1686.53, 0, 0, 0, 0, 538.499, 1689.16, 0, 0, 0, 0, 572.369, 1693.53, 0, 0, 0, 0, 579.377, 1698.79, 0, 0, 0, 0, 584.049, 1702.88, 0, 0, 0, 0, 598.94, 1709.3, 0, 0, 0, 0, 612.956, 1714.85, 0, 0, 0, 0, 630.767, 1717.19, 0, 0, 0, 0, 647.411, 1716.89, 0, 0, 0, 0, 662.302, 1714.27, 0, 0, 0, 0, 650.331, 1716.31, 0, 0, 0, 0, 630.475, 1716.6, 0, 0, 0, 0, 607.116, 1712.51, 0, 0, 0, 0, 588.721, 1704.63, 0, 0, 0, 0, 572.077, 1692.37, 0, 0, 0, 0, 535.287, 1687.4, 0, 0, 0, 0, 516.891, 1686.24, 0, 0, 0, 0, 504.92, 1673.68, 0, 0, 0, 0, 490.32, 1671.34, 0, 0, 0, 0, 480.101, 1667.55, 0, 0, 0, 0, 473.677, 1655.87, 0, 0, 0, 0, 455.866, 1651.78, 0, 0, 0, 0, 448.858, 1634.84 )
 }
 
-[sub_resource type="SpriteFrames" id=6]
+[sub_resource type="SpriteFrames" id=7]
 animations = [ {
 "frames": [ ExtResource( 35 ), ExtResource( 35 ), ExtResource( 35 ), ExtResource( 35 ), ExtResource( 35 ), ExtResource( 34 ) ],
 "loop": true,
@@ -514,13 +514,13 @@ animations = [ {
 "speed": 5.0
 } ]
 
-[sub_resource type="CircleShape2D" id=7]
+[sub_resource type="CircleShape2D" id=8]
 radius = 4.43559
 
-[sub_resource type="RectangleShape2D" id=8]
+[sub_resource type="RectangleShape2D" id=9]
 extents = Vector2( 46.6794, 26.9791 )
 
-[sub_resource type="Curve2D" id=9]
+[sub_resource type="Curve2D" id=10]
 _data = {
 "points": PoolVector2Array( 0, 0, 0, 0, -497.309, -1723.01, 0, 0, 0, 0, -486.167, -2870.71, 0, 0, 0, 0, 6500.32, -2948.71, 0, 0, 0, 0, 6433.46, -1834.44, 0, 0, 0, 0, 6444.61, -2893, 0, 0, 0, 0, -497.309, -2837.28, 0, 0, 0, 0, -497.309, -1723.01 )
 }
@@ -667,7 +667,7 @@ margin_bottom = -109.772
 toggle_mode = true
 texture_normal = ExtResource( 115 )
 texture_pressed = ExtResource( 20 )
-texture_disabled = SubResource( 10 )
+texture_disabled = SubResource( 5 )
 script = ExtResource( 119 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -691,7 +691,7 @@ wait_time = 30.0
 autostart = true
 
 [node name="FruitSpawnPath" type="Path2D" parent="trees/Tree2"]
-curve = SubResource( 5 )
+curve = SubResource( 6 )
 
 [node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree2/FruitSpawnPath"]
 position = Vector2( 448.858, 1634.84 )
@@ -713,7 +713,7 @@ wait_time = 2.0
 autostart = true
 
 [node name="FruitSpawnPath" type="Path2D" parent="trees/Tree7"]
-curve = SubResource( 5 )
+curve = SubResource( 6 )
 
 [node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree7/FruitSpawnPath"]
 position = Vector2( 448.858, 1634.84 )
@@ -735,7 +735,7 @@ wait_time = 2.0
 autostart = true
 
 [node name="FruitSpawnPath" type="Path2D" parent="trees/Tree8"]
-curve = SubResource( 5 )
+curve = SubResource( 6 )
 
 [node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree8/FruitSpawnPath"]
 position = Vector2( 448.858, 1634.84 )
@@ -757,7 +757,7 @@ wait_time = 2.0
 autostart = true
 
 [node name="FruitSpawnPath" type="Path2D" parent="trees/Tree9"]
-curve = SubResource( 5 )
+curve = SubResource( 6 )
 
 [node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree9/FruitSpawnPath"]
 position = Vector2( 448.858, 1634.84 )
@@ -779,7 +779,7 @@ wait_time = 2.0
 autostart = true
 
 [node name="FruitSpawnPath" type="Path2D" parent="trees/Tree13"]
-curve = SubResource( 5 )
+curve = SubResource( 6 )
 
 [node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree13/FruitSpawnPath"]
 position = Vector2( 448.858, 1634.84 )
@@ -801,7 +801,7 @@ wait_time = 2.0
 autostart = true
 
 [node name="FruitSpawnPath" type="Path2D" parent="trees/Tree10"]
-curve = SubResource( 5 )
+curve = SubResource( 6 )
 
 [node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree10/FruitSpawnPath"]
 position = Vector2( 448.858, 1634.84 )
@@ -823,7 +823,7 @@ wait_time = 2.0
 autostart = true
 
 [node name="FruitSpawnPath" type="Path2D" parent="trees/Tree11"]
-curve = SubResource( 5 )
+curve = SubResource( 6 )
 
 [node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree11/FruitSpawnPath"]
 position = Vector2( 448.858, 1634.84 )
@@ -845,7 +845,7 @@ wait_time = 2.0
 autostart = true
 
 [node name="FruitSpawnPath" type="Path2D" parent="trees/Tree12"]
-curve = SubResource( 5 )
+curve = SubResource( 6 )
 
 [node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree12/FruitSpawnPath"]
 position = Vector2( 448.858, 1634.84 )
@@ -867,7 +867,7 @@ wait_time = 2.0
 autostart = true
 
 [node name="FruitSpawnPath" type="Path2D" parent="trees/Tree3"]
-curve = SubResource( 5 )
+curve = SubResource( 6 )
 
 [node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree3/FruitSpawnPath"]
 position = Vector2( 448.858, 1634.84 )
@@ -889,7 +889,7 @@ wait_time = 2.0
 autostart = true
 
 [node name="FruitSpawnPath" type="Path2D" parent="trees/Tree4"]
-curve = SubResource( 5 )
+curve = SubResource( 6 )
 
 [node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree4/FruitSpawnPath"]
 position = Vector2( 448.858, 1634.84 )
@@ -911,7 +911,7 @@ wait_time = 20.0
 autostart = true
 
 [node name="FruitSpawnPath" type="Path2D" parent="trees/Tree5"]
-curve = SubResource( 5 )
+curve = SubResource( 6 )
 
 [node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree5/FruitSpawnPath"]
 position = Vector2( 448.858, 1634.84 )
@@ -933,7 +933,7 @@ wait_time = 2.0
 autostart = true
 
 [node name="FruitSpawnPath" type="Path2D" parent="trees/Tree6"]
-curve = SubResource( 5 )
+curve = SubResource( 6 )
 
 [node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree6/FruitSpawnPath"]
 position = Vector2( 448.858, 1634.84 )
@@ -968,7 +968,7 @@ script = ExtResource( 27 )
 [node name="birb" type="AnimatedSprite" parent="Nest/Egg1"]
 scale = Vector2( 0.25, 0.25 )
 z_as_relative = false
-frames = SubResource( 6 )
+frames = SubResource( 7 )
 animation = "hatching"
 frame = 4
 speed_scale = 0.7
@@ -989,7 +989,7 @@ script = ExtResource( 27 )
 scale = Vector2( 0.25, 0.25 )
 z_index = 1
 z_as_relative = false
-frames = SubResource( 6 )
+frames = SubResource( 7 )
 animation = "hatching"
 frame = 5
 speed_scale = 0.7
@@ -1010,7 +1010,7 @@ script = ExtResource( 27 )
 scale = Vector2( 0.25, 0.25 )
 z_index = 1
 z_as_relative = false
-frames = SubResource( 6 )
+frames = SubResource( 7 )
 animation = "hatching"
 frame = 5
 speed_scale = 0.7
@@ -1031,7 +1031,7 @@ script = ExtResource( 27 )
 scale = Vector2( 0.25, 0.25 )
 z_index = 1
 z_as_relative = false
-frames = SubResource( 6 )
+frames = SubResource( 7 )
 animation = "hatching"
 frame = 2
 speed_scale = 0.7
@@ -1046,7 +1046,7 @@ script = ExtResource( 32 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Nest/dropBox"]
 position = Vector2( 0.10466, -0.157013 )
-shape = SubResource( 7 )
+shape = SubResource( 8 )
 
 [node name="pointerRegion" type="Area2D" parent="Nest"]
 visible = false
@@ -1054,7 +1054,7 @@ script = ExtResource( 100 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Nest/pointerRegion"]
 position = Vector2( -1.35092, -4.45801 )
-shape = SubResource( 8 )
+shape = SubResource( 9 )
 
 [node name="World Bounds" type="StaticBody2D" parent="."]
 __meta__ = {
@@ -1079,7 +1079,7 @@ one_shot = true
 script = ExtResource( 109 )
 
 [node name="EnemySpawnPath" type="Path2D" parent="EnemySpawner"]
-curve = SubResource( 9 )
+curve = SubResource( 10 )
 script = ExtResource( 120 )
 
 [node name="EnemySpawnLocation" type="PathFollow2D" parent="EnemySpawner/EnemySpawnPath"]
@@ -1135,8 +1135,8 @@ __meta__ = {
 }
 [connection signal="setScore" from="Player" to="Nest" method="_on_Player_setScore"]
 [connection signal="squawked" from="Player" to="EnemySpawner" method="_on_Player_squawked"]
-[connection signal="stopGame" from="Player/visualTimer" to="Nest/HungerTimer" method="_on_visualGameTimer_stopGame"]
 [connection signal="stopGame" from="Player/visualTimer" to="Nest/Egg1/HatchTimer" method="_on_visualGameTimer_stopGame"]
+[connection signal="stopGame" from="Player/visualTimer" to="Nest/HungerTimer" method="_on_visualGameTimer_stopGame"]
 [connection signal="stopGame" from="Player/visualTimer" to="Player" method="_on_visualGameTimer_stopGame"]
 [connection signal="stopGame" from="Player/visualTimer" to="EnemySpawner" method="_on_visualGameTimer_stopGame"]
 [connection signal="stopGame" from="Player/visualTimer" to="EnemySpawner" method="_on_visualTimer_stopGame"]
@@ -1201,9 +1201,9 @@ __meta__ = {
 [connection signal="timeout" from="EnemySpawner/LongSpawnTimer" to="EnemySpawner" method="_on_LongSpawnTimer_timeout"]
 [connection signal="pressed" from="start game" to="start game" method="_on_start_game_pressed"]
 [connection signal="start_timer" from="start game" to="Player/visualTimer" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Nest/Egg1/HatchTimer" method="_on_start_game_start_timer"]
 [connection signal="start_timer" from="start game" to="Player/visualTimer/GameTimer" method="_on_start_game_start_timer"]
 [connection signal="start_timer" from="start game" to="Nest/HungerTimer" method="_on_start_game_start_timer"]
-[connection signal="start_timer" from="start game" to="Nest/Egg1/HatchTimer" method="_on_start_game_start_timer"]
 [connection signal="start_timer" from="start game" to="help" method="_on_start_game_start_timer"]
 [connection signal="start_timer" from="start game" to="Player" method="_on_start_game_start_timer"]
 [connection signal="start_timer" from="start game" to="EnemySpawner" method="_on_start_game_start_timer"]
