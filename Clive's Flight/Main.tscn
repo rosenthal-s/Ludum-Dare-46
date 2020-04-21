@@ -1,0 +1,1212 @@
+[gd_scene load_steps=131 format=2]
+
+[ext_resource path="res://Player/w1.png" type="Texture" id=1]
+[ext_resource path="res://Player/Player.gd" type="Script" id=2]
+[ext_resource path="res://Player/e2.png" type="Texture" id=3]
+[ext_resource path="res://Player/e1.png" type="Texture" id=4]
+[ext_resource path="res://Player/ne1.png" type="Texture" id=5]
+[ext_resource path="res://Player/ne2.png" type="Texture" id=6]
+[ext_resource path="res://Player/w2.png" type="Texture" id=7]
+[ext_resource path="res://Player/nw2.png" type="Texture" id=8]
+[ext_resource path="res://Player/nw1.png" type="Texture" id=9]
+[ext_resource path="res://Player/se1.png" type="Texture" id=10]
+[ext_resource path="res://Player/se2.png" type="Texture" id=11]
+[ext_resource path="res://Player/sw1.png" type="Texture" id=12]
+[ext_resource path="res://Player/sw2.png" type="Texture" id=13]
+[ext_resource path="res://Player/n1.png" type="Texture" id=14]
+[ext_resource path="res://Player/n2.png" type="Texture" id=15]
+[ext_resource path="res://Player/n3.png" type="Texture" id=16]
+[ext_resource path="res://Player/s1.png" type="Texture" id=17]
+[ext_resource path="res://Player/s2.png" type="Texture" id=18]
+[ext_resource path="res://background1.png" type="Texture" id=19]
+[ext_resource path="res://Play.png" type="Texture" id=20]
+[ext_resource path="res://Tree.gd" type="Script" id=21]
+[ext_resource path="res://background2.png" type="Texture" id=22]
+[ext_resource path="res://background3.png" type="Texture" id=23]
+[ext_resource path="res://nest.png" type="Texture" id=24]
+[ext_resource path="res://sprites/birb2.png" type="Texture" id=25]
+[ext_resource path="res://Egg1.gd" type="Script" id=26]
+[ext_resource path="res://HatchTimer.gd" type="Script" id=27]
+[ext_resource path="res://Nest.gd" type="Script" id=28]
+[ext_resource path="res://Sprite.gd" type="Script" id=29]
+[ext_resource path="res://HungerTimer.gd" type="Script" id=30]
+[ext_resource path="res://sprites/birb1.png" type="Texture" id=31]
+[ext_resource path="res://dropBox.gd" type="Script" id=32]
+[ext_resource path="res://sprites/egg1.png" type="Texture" id=33]
+[ext_resource path="res://sprites/egg3.png" type="Texture" id=34]
+[ext_resource path="res://sprites/egg2.png" type="Texture" id=35]
+[ext_resource path="res://EnemySpawner.gd" type="Script" id=36]
+[ext_resource path="res://BarSprites/bar7.png" type="Texture" id=37]
+[ext_resource path="res://BarSprites/bar2.png" type="Texture" id=38]
+[ext_resource path="res://BarSprites/bar8.png" type="Texture" id=39]
+[ext_resource path="res://BarSprites/bar18.png" type="Texture" id=40]
+[ext_resource path="res://BarSprites/bar13.png" type="Texture" id=41]
+[ext_resource path="res://BarSprites/bar14.png" type="Texture" id=42]
+[ext_resource path="res://BarSprites/bar12.png" type="Texture" id=43]
+[ext_resource path="res://BarSprites/bar17.png" type="Texture" id=44]
+[ext_resource path="res://BarSprites/bar6.png" type="Texture" id=45]
+[ext_resource path="res://BarSprites/bar19.png" type="Texture" id=46]
+[ext_resource path="res://BarSprites/bar20.png" type="Texture" id=47]
+[ext_resource path="res://BarSprites/bar21.png" type="Texture" id=48]
+[ext_resource path="res://BarSprites/bar9.png" type="Texture" id=49]
+[ext_resource path="res://BarSprites/bar11.png" type="Texture" id=50]
+[ext_resource path="res://BarSprites/bar3.png" type="Texture" id=51]
+[ext_resource path="res://BarSprites/bar0.png" type="Texture" id=52]
+[ext_resource path="res://BarSprites/bar5.png" type="Texture" id=53]
+[ext_resource path="res://BarSprites/bar10.png" type="Texture" id=54]
+[ext_resource path="res://BarSprites/bar15.png" type="Texture" id=55]
+[ext_resource path="res://BarSprites/bar1.png" type="Texture" id=56]
+[ext_resource path="res://BarSprites/bar4.png" type="Texture" id=57]
+[ext_resource path="res://BarSprites/bar16.png" type="Texture" id=58]
+[ext_resource path="res://BarSprites/bar52.png" type="Texture" id=59]
+[ext_resource path="res://BarSprites/bar42.png" type="Texture" id=60]
+[ext_resource path="res://BarSprites/bar47.png" type="Texture" id=61]
+[ext_resource path="res://BarSprites/bar54.png" type="Texture" id=62]
+[ext_resource path="res://BarSprites/bar49.png" type="Texture" id=63]
+[ext_resource path="res://BarSprites/bar55.png" type="Texture" id=64]
+[ext_resource path="res://BarSprites/bar58.png" type="Texture" id=65]
+[ext_resource path="res://BarSprites/bar43.png" type="Texture" id=66]
+[ext_resource path="res://BarSprites/bar51.png" type="Texture" id=67]
+[ext_resource path="res://BarSprites/bar57.png" type="Texture" id=68]
+[ext_resource path="res://BarSprites/bar59.png" type="Texture" id=69]
+[ext_resource path="res://BarSprites/bar53.png" type="Texture" id=70]
+[ext_resource path="res://BarSprites/bar56.png" type="Texture" id=71]
+[ext_resource path="res://BarSprites/bar50.png" type="Texture" id=72]
+[ext_resource path="res://BarSprites/bar44.png" type="Texture" id=73]
+[ext_resource path="res://BarSprites/bar45.png" type="Texture" id=74]
+[ext_resource path="res://BarSprites/bar41.png" type="Texture" id=75]
+[ext_resource path="res://BarSprites/bar46.png" type="Texture" id=76]
+[ext_resource path="res://BarSprites/bar48.png" type="Texture" id=77]
+[ext_resource path="res://BarSprites/bar60.png" type="Texture" id=78]
+[ext_resource path="res://BarSprites/bar40.png" type="Texture" id=79]
+[ext_resource path="res://BarSprites/bar36.png" type="Texture" id=80]
+[ext_resource path="res://BarSprites/bar38.png" type="Texture" id=81]
+[ext_resource path="res://BarSprites/bar35.png" type="Texture" id=82]
+[ext_resource path="res://BarSprites/bar37.png" type="Texture" id=83]
+[ext_resource path="res://BarSprites/bar39.png" type="Texture" id=84]
+[ext_resource path="res://BarSprites/bar32.png" type="Texture" id=85]
+[ext_resource path="res://BarSprites/bar31.png" type="Texture" id=86]
+[ext_resource path="res://BarSprites/bar34.png" type="Texture" id=87]
+[ext_resource path="res://BarSprites/bar33.png" type="Texture" id=88]
+[ext_resource path="res://BarSprites/bar26.png" type="Texture" id=89]
+[ext_resource path="res://BarSprites/bar27.png" type="Texture" id=90]
+[ext_resource path="res://BarSprites/bar30.png" type="Texture" id=91]
+[ext_resource path="res://BarSprites/bar28.png" type="Texture" id=92]
+[ext_resource path="res://BarSprites/bar29.png" type="Texture" id=93]
+[ext_resource path="res://BarSprites/bar25.png" type="Texture" id=94]
+[ext_resource path="res://BarSprites/bar22.png" type="Texture" id=95]
+[ext_resource path="res://BarSprites/bar23.png" type="Texture" id=96]
+[ext_resource path="res://BarSprites/bar24.png" type="Texture" id=97]
+[ext_resource path="res://pointer.gd" type="Script" id=98]
+[ext_resource path="res://sprites/Nest Arrow.png" type="Texture" id=99]
+[ext_resource path="res://pointerRegion.gd" type="Script" id=100]
+[ext_resource path="res://sprites/button unclicked.png" type="Texture" id=101]
+[ext_resource path="res://sprites/button clicked.png" type="Texture" id=102]
+[ext_resource path="res://start game.gd" type="Script" id=103]
+[ext_resource path="res://sprites/button pushed.png" type="Texture" id=104]
+[ext_resource path="res://Game Timer.gd" type="Script" id=105]
+[ext_resource path="res://RichTextLabel.gd" type="Script" id=106]
+[ext_resource path="res://Trees/Tree mk 3.png" type="Texture" id=107]
+[ext_resource path="res://Sounds/Voice_001.wav" type="AudioStream" id=108]
+[ext_resource path="res://SpawnTimer.gd" type="Script" id=109]
+[ext_resource path="res://HelpText.gd" type="Script" id=110]
+[ext_resource path="res://help.gd" type="Script" id=111]
+[ext_resource path="res://sprites/play button hovering.png" type="Texture" id=112]
+[ext_resource path="res://sprites/play button.png" type="Texture" id=113]
+[ext_resource path="res://Trees/tree.png" type="Texture" id=114]
+[ext_resource path="res://Pause.png" type="Texture" id=115]
+[ext_resource path="res://Sounds/Clive's Song 2.wav" type="AudioStream" id=116]
+[ext_resource path="res://Sounds/Clive's Song.wav" type="AudioStream" id=117]
+[ext_resource path="res://Sounds/tweets.wav" type="AudioStream" id=118]
+[ext_resource path="res://PauseButton.gd" type="Script" id=119]
+[ext_resource path="res://EnemySpawnPath.gd" type="Script" id=120]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 5 ), ExtResource( 6 ) ],
+"loop": true,
+"name": "NE",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "NW",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 12 ), ExtResource( 13 ) ],
+"loop": true,
+"name": "SW",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "E",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 7 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "W",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ) ],
+"loop": true,
+"name": "N",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 17 ), ExtResource( 18 ) ],
+"loop": true,
+"name": "S",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 11 ), ExtResource( 10 ) ],
+"loop": true,
+"name": "SE",
+"speed": 5.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 3.37456
+height = 9.34329
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ ExtResource( 73 ) ],
+"loop": true,
+"name": "44",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 55 ) ],
+"loop": true,
+"name": "15",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 90 ) ],
+"loop": true,
+"name": "27",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 67 ) ],
+"loop": true,
+"name": "51",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 70 ) ],
+"loop": true,
+"name": "53",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 75 ) ],
+"loop": true,
+"name": "41",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 92 ) ],
+"loop": true,
+"name": "28",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 76 ) ],
+"loop": true,
+"name": "46",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 64 ) ],
+"loop": true,
+"name": "55",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 46 ) ],
+"loop": true,
+"name": "19",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 52 ) ],
+"loop": true,
+"name": "0",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 37 ) ],
+"loop": true,
+"name": "7",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 48 ) ],
+"loop": true,
+"name": "21",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 49 ) ],
+"loop": true,
+"name": "9",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 59 ) ],
+"loop": true,
+"name": "52",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 56 ) ],
+"loop": true,
+"name": "1",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 50 ) ],
+"loop": true,
+"name": "11",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 53 ) ],
+"loop": true,
+"name": "5",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 65 ) ],
+"loop": true,
+"name": "58",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 77 ) ],
+"loop": true,
+"name": "48",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 93 ) ],
+"loop": true,
+"name": "29",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 89 ) ],
+"loop": true,
+"name": "26",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 47 ) ],
+"loop": true,
+"name": "20",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 60 ) ],
+"loop": true,
+"name": "42",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 42 ) ],
+"loop": true,
+"name": "14",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 94 ) ],
+"loop": true,
+"name": "25",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 79 ) ],
+"loop": true,
+"name": "40",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 44 ) ],
+"loop": true,
+"name": "17",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 66 ) ],
+"loop": true,
+"name": "43",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 85 ) ],
+"loop": true,
+"name": "32",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 91 ) ],
+"loop": true,
+"name": "30",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 86 ) ],
+"loop": true,
+"name": "31",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 84 ) ],
+"loop": true,
+"name": "39",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 71 ) ],
+"loop": true,
+"name": "56",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 41 ) ],
+"loop": true,
+"name": "13",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 97 ) ],
+"loop": true,
+"name": "24",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 95 ) ],
+"loop": true,
+"name": "22",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 54 ) ],
+"loop": true,
+"name": "10",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 81 ) ],
+"loop": true,
+"name": "38",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 68 ) ],
+"loop": true,
+"name": "57",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 62 ) ],
+"loop": true,
+"name": "54",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 39 ) ],
+"loop": true,
+"name": "8",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 82 ) ],
+"loop": true,
+"name": "35",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 88 ) ],
+"loop": true,
+"name": "33",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 96 ) ],
+"loop": true,
+"name": "23",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 38 ) ],
+"loop": true,
+"name": "2",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 74 ) ],
+"loop": true,
+"name": "45",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 61 ) ],
+"loop": true,
+"name": "47",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 63 ) ],
+"loop": true,
+"name": "49",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 80 ) ],
+"loop": true,
+"name": "36",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 45 ) ],
+"loop": true,
+"name": "6",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 87 ) ],
+"loop": true,
+"name": "34",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 57 ) ],
+"loop": true,
+"name": "4",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 40 ) ],
+"loop": true,
+"name": "18",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 51 ) ],
+"loop": true,
+"name": "3",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 43 ) ],
+"loop": true,
+"name": "12",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 83 ) ],
+"loop": true,
+"name": "37",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 78 ) ],
+"loop": true,
+"name": "60",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 69 ) ],
+"loop": true,
+"name": "59",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 72 ) ],
+"loop": true,
+"name": "50",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 58 ) ],
+"loop": true,
+"name": "16",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ ExtResource( 99 ) ],
+"loop": true,
+"name": "pointing",
+"speed": 5.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "blank",
+"speed": 5.0
+} ]
+
+[sub_resource type="ImageTexture" id=10]
+
+[sub_resource type="Curve2D" id=5]
+_data = {
+"points": PoolVector2Array( 0, 0, 0, 0, 448.858, 1634.84, 0, 0, 0, 0, 456.158, 1652.66, 0, 0, 0, 0, 472.801, 1655.58, 0, 0, 0, 0, 474.261, 1659.66, 0, 0, 0, 0, 481.853, 1669.01, 0, 0, 0, 0, 495.284, 1671.05, 0, 0, 0, 0, 505.504, 1674.56, 0, 0, 0, 0, 510.76, 1680.1, 0, 0, 0, 0, 519.227, 1686.53, 0, 0, 0, 0, 531.783, 1686.53, 0, 0, 0, 0, 538.499, 1689.16, 0, 0, 0, 0, 572.369, 1693.53, 0, 0, 0, 0, 579.377, 1698.79, 0, 0, 0, 0, 584.049, 1702.88, 0, 0, 0, 0, 598.94, 1709.3, 0, 0, 0, 0, 612.956, 1714.85, 0, 0, 0, 0, 630.767, 1717.19, 0, 0, 0, 0, 647.411, 1716.89, 0, 0, 0, 0, 662.302, 1714.27, 0, 0, 0, 0, 650.331, 1716.31, 0, 0, 0, 0, 630.475, 1716.6, 0, 0, 0, 0, 607.116, 1712.51, 0, 0, 0, 0, 588.721, 1704.63, 0, 0, 0, 0, 572.077, 1692.37, 0, 0, 0, 0, 535.287, 1687.4, 0, 0, 0, 0, 516.891, 1686.24, 0, 0, 0, 0, 504.92, 1673.68, 0, 0, 0, 0, 490.32, 1671.34, 0, 0, 0, 0, 480.101, 1667.55, 0, 0, 0, 0, 473.677, 1655.87, 0, 0, 0, 0, 455.866, 1651.78, 0, 0, 0, 0, 448.858, 1634.84 )
+}
+
+[sub_resource type="SpriteFrames" id=6]
+animations = [ {
+"frames": [ ExtResource( 35 ), ExtResource( 35 ), ExtResource( 35 ), ExtResource( 35 ), ExtResource( 35 ), ExtResource( 34 ) ],
+"loop": true,
+"name": "hatching",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 31 ), ExtResource( 25 ) ],
+"loop": true,
+"name": "hatched",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 33 ) ],
+"loop": false,
+"name": "egg",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=7]
+radius = 4.43559
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 46.6794, 26.9791 )
+
+[sub_resource type="Curve2D" id=9]
+_data = {
+"points": PoolVector2Array( 0, 0, 0, 0, -497.309, -1723.01, 0, 0, 0, 0, -486.167, -2870.71, 0, 0, 0, 0, 6500.32, -2948.71, 0, 0, 0, 0, 6433.46, -1834.44, 0, 0, 0, 0, 6444.61, -2893, 0, 0, 0, 0, -497.309, -2837.28, 0, 0, 0, 0, -497.309, -1723.01 )
+}
+
+[node name="Main" type="Node2D"]
+
+[node name="Background" type="Sprite" parent="."]
+
+[node name="background1" type="Sprite" parent="Background"]
+position = Vector2( 2967.27, 1176 )
+texture = ExtResource( 19 )
+
+[node name="background1-2" type="Sprite" parent="Background"]
+position = Vector2( 984, 1174.28 )
+texture = ExtResource( 19 )
+
+[node name="background2" type="Sprite" parent="Background"]
+position = Vector2( 992, -318 )
+texture = ExtResource( 22 )
+
+[node name="background4" type="Sprite" parent="Background"]
+position = Vector2( 2967.27, -316 )
+texture = ExtResource( 22 )
+
+[node name="background1-3" type="Sprite" parent="Background"]
+position = Vector2( 4951.27, 1176 )
+texture = ExtResource( 19 )
+
+[node name="background3" type="Sprite" parent="Background"]
+position = Vector2( 4951.27, -316 )
+texture = ExtResource( 22 )
+
+[node name="background5" type="Sprite" parent="Background"]
+position = Vector2( 992, -1804 )
+texture = ExtResource( 23 )
+
+[node name="background6" type="Sprite" parent="Background"]
+position = Vector2( 2976, -1804 )
+texture = ExtResource( 23 )
+
+[node name="background7" type="Sprite" parent="Background"]
+position = Vector2( 4960, -1804 )
+texture = ExtResource( 23 )
+
+[node name="background8" type="Sprite" parent="Background"]
+position = Vector2( -1008, 1171.93 )
+texture = ExtResource( 19 )
+
+[node name="background9" type="Sprite" parent="Background"]
+position = Vector2( -1008, -320 )
+texture = ExtResource( 22 )
+
+[node name="background10" type="Sprite" parent="Background"]
+position = Vector2( -1001.18, -1803.46 )
+texture = ExtResource( 23 )
+
+[node name="background11" type="Sprite" parent="Background"]
+position = Vector2( 6930.96, 1178.95 )
+texture = ExtResource( 19 )
+
+[node name="background12" type="Sprite" parent="Background"]
+position = Vector2( 6931.44, -320.813 )
+texture = ExtResource( 22 )
+
+[node name="background13" type="Sprite" parent="Background"]
+position = Vector2( 6927.23, -1800.86 )
+texture = ExtResource( 23 )
+
+[node name="tree" type="Sprite" parent="."]
+position = Vector2( 3048, 1624 )
+texture = ExtResource( 114 )
+
+[node name="Player" type="KinematicBody2D" parent="."]
+position = Vector2( 2955.99, 1597.21 )
+z_index = 2
+z_as_relative = false
+script = ExtResource( 2 )
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+current = true
+zoom = Vector2( 0.3, 0.3 )
+
+[node name="PlayerSprite" type="AnimatedSprite" parent="Player"]
+z_index = 3
+frames = SubResource( 1 )
+animation = "S"
+speed_scale = 1.5
+
+[node name="PlayerHitbox" type="CollisionShape2D" parent="Player"]
+visible = false
+position = Vector2( 1.0954, 1.30573 )
+rotation = 1.5708
+shape = SubResource( 2 )
+
+[node name="hungerBar" type="AnimatedSprite" parent="Player"]
+position = Vector2( -201.117, -122.092 )
+frames = SubResource( 3 )
+animation = "60"
+
+[node name="pointer" type="KinematicBody2D" parent="Player"]
+script = ExtResource( 98 )
+
+[node name="pointerSprite" type="AnimatedSprite" parent="Player/pointer"]
+frames = SubResource( 4 )
+animation = "pointing"
+offset = Vector2( 50, 0 )
+
+[node name="visualTimer" type="RichTextLabel" parent="Player"]
+margin_left = -231.0
+margin_top = -103.0
+margin_right = -101.0
+margin_bottom = -63.0
+script = ExtResource( 106 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GameTimer" type="Timer" parent="Player/visualTimer"]
+wait_time = 0.1
+script = ExtResource( 105 )
+
+[node name="Squawk" type="AudioStreamPlayer" parent="Player"]
+stream = ExtResource( 108 )
+
+[node name="SquawkTimer" type="Timer" parent="Player/Squawk"]
+
+[node name="Tweets" type="AudioStreamPlayer" parent="Player"]
+stream = ExtResource( 118 )
+autoplay = true
+
+[node name="Clive\'s Song" type="AudioStreamPlayer" parent="Player"]
+stream = ExtResource( 117 )
+
+[node name="Clive\'s Song 2" type="AudioStreamPlayer" parent="Player"]
+stream = ExtResource( 116 )
+autoplay = true
+
+[node name="PauseButton" type="TextureButton" parent="Player"]
+pause_mode = 2
+margin_left = 214.734
+margin_top = -129.772
+margin_right = 234.734
+margin_bottom = -109.772
+toggle_mode = true
+texture_normal = ExtResource( 115 )
+texture_pressed = ExtResource( 20 )
+texture_disabled = SubResource( 10 )
+script = ExtResource( 119 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="trees" type="Node2D" parent="."]
+
+[node name="Tree2" type="StaticBody2D" parent="trees"]
+position = Vector2( 1125.34, -19.0696 )
+script = ExtResource( 21 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TreeSprite" type="Sprite" parent="trees/Tree2"]
+position = Vector2( 556.981, 1685.97 )
+texture = ExtResource( 107 )
+
+[node name="FruitTimer" type="Timer" parent="trees/Tree2"]
+wait_time = 30.0
+autostart = true
+
+[node name="FruitSpawnPath" type="Path2D" parent="trees/Tree2"]
+curve = SubResource( 5 )
+
+[node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree2/FruitSpawnPath"]
+position = Vector2( 448.858, 1634.84 )
+rotation = 1.18201
+
+[node name="Tree7" type="StaticBody2D" parent="trees"]
+position = Vector2( 1496.25, -38.5908 )
+script = ExtResource( 21 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TreeSprite" type="Sprite" parent="trees/Tree7"]
+position = Vector2( 556.981, 1685.97 )
+texture = ExtResource( 107 )
+
+[node name="FruitTimer" type="Timer" parent="trees/Tree7"]
+wait_time = 2.0
+autostart = true
+
+[node name="FruitSpawnPath" type="Path2D" parent="trees/Tree7"]
+curve = SubResource( 5 )
+
+[node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree7/FruitSpawnPath"]
+position = Vector2( 448.858, 1634.84 )
+rotation = 1.18201
+
+[node name="Tree8" type="StaticBody2D" parent="trees"]
+position = Vector2( 3432.11, -48.3516 )
+script = ExtResource( 21 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TreeSprite" type="Sprite" parent="trees/Tree8"]
+position = Vector2( 556.981, 1685.97 )
+texture = ExtResource( 107 )
+
+[node name="FruitTimer" type="Timer" parent="trees/Tree8"]
+wait_time = 2.0
+autostart = true
+
+[node name="FruitSpawnPath" type="Path2D" parent="trees/Tree8"]
+curve = SubResource( 5 )
+
+[node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree8/FruitSpawnPath"]
+position = Vector2( 448.858, 1634.84 )
+rotation = 1.18201
+
+[node name="Tree9" type="StaticBody2D" parent="trees"]
+position = Vector2( 3871.34, -32.0837 )
+script = ExtResource( 21 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TreeSprite" type="Sprite" parent="trees/Tree9"]
+position = Vector2( 556.981, 1685.97 )
+texture = ExtResource( 107 )
+
+[node name="FruitTimer" type="Timer" parent="trees/Tree9"]
+wait_time = 2.0
+autostart = true
+
+[node name="FruitSpawnPath" type="Path2D" parent="trees/Tree9"]
+curve = SubResource( 5 )
+
+[node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree9/FruitSpawnPath"]
+position = Vector2( 448.858, 1634.84 )
+rotation = 1.18201
+
+[node name="Tree13" type="StaticBody2D" parent="trees"]
+position = Vector2( 4203.2, -48.3513 )
+script = ExtResource( 21 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TreeSprite" type="Sprite" parent="trees/Tree13"]
+position = Vector2( 556.981, 1685.97 )
+texture = ExtResource( 107 )
+
+[node name="FruitTimer" type="Timer" parent="trees/Tree13"]
+wait_time = 2.0
+autostart = true
+
+[node name="FruitSpawnPath" type="Path2D" parent="trees/Tree13"]
+curve = SubResource( 5 )
+
+[node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree13/FruitSpawnPath"]
+position = Vector2( 448.858, 1634.84 )
+rotation = 1.18201
+
+[node name="Tree10" type="StaticBody2D" parent="trees"]
+position = Vector2( 5182.52, -38.5911 )
+script = ExtResource( 21 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TreeSprite" type="Sprite" parent="trees/Tree10"]
+position = Vector2( 556.981, 1685.97 )
+texture = ExtResource( 107 )
+
+[node name="FruitTimer" type="Timer" parent="trees/Tree10"]
+wait_time = 2.0
+autostart = true
+
+[node name="FruitSpawnPath" type="Path2D" parent="trees/Tree10"]
+curve = SubResource( 5 )
+
+[node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree10/FruitSpawnPath"]
+position = Vector2( 448.858, 1634.84 )
+rotation = 1.18201
+
+[node name="Tree11" type="StaticBody2D" parent="trees"]
+position = Vector2( 4899.46, -67.8728 )
+script = ExtResource( 21 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TreeSprite" type="Sprite" parent="trees/Tree11"]
+position = Vector2( 556.981, 1685.97 )
+texture = ExtResource( 107 )
+
+[node name="FruitTimer" type="Timer" parent="trees/Tree11"]
+wait_time = 2.0
+autostart = true
+
+[node name="FruitSpawnPath" type="Path2D" parent="trees/Tree11"]
+curve = SubResource( 5 )
+
+[node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree11/FruitSpawnPath"]
+position = Vector2( 448.858, 1634.84 )
+rotation = 1.18201
+
+[node name="Tree12" type="StaticBody2D" parent="trees"]
+position = Vector2( 4515.54, -71.1265 )
+script = ExtResource( 21 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TreeSprite" type="Sprite" parent="trees/Tree12"]
+position = Vector2( 556.981, 1685.97 )
+texture = ExtResource( 107 )
+
+[node name="FruitTimer" type="Timer" parent="trees/Tree12"]
+wait_time = 2.0
+autostart = true
+
+[node name="FruitSpawnPath" type="Path2D" parent="trees/Tree12"]
+curve = SubResource( 5 )
+
+[node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree12/FruitSpawnPath"]
+position = Vector2( 448.858, 1634.84 )
+rotation = 1.18201
+
+[node name="Tree3" type="StaticBody2D" parent="trees"]
+position = Vector2( 789.599, -62.97 )
+script = ExtResource( 21 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TreeSprite" type="Sprite" parent="trees/Tree3"]
+position = Vector2( 556.981, 1685.97 )
+texture = ExtResource( 107 )
+
+[node name="FruitTimer" type="Timer" parent="trees/Tree3"]
+wait_time = 2.0
+autostart = true
+
+[node name="FruitSpawnPath" type="Path2D" parent="trees/Tree3"]
+curve = SubResource( 5 )
+
+[node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree3/FruitSpawnPath"]
+position = Vector2( 448.858, 1634.84 )
+rotation = 1.18201
+
+[node name="Tree4" type="StaticBody2D" parent="trees"]
+position = Vector2( 394.525, -26.2286 )
+script = ExtResource( 21 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TreeSprite" type="Sprite" parent="trees/Tree4"]
+position = Vector2( 556.981, 1685.97 )
+texture = ExtResource( 107 )
+
+[node name="FruitTimer" type="Timer" parent="trees/Tree4"]
+wait_time = 2.0
+autostart = true
+
+[node name="FruitSpawnPath" type="Path2D" parent="trees/Tree4"]
+curve = SubResource( 5 )
+
+[node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree4/FruitSpawnPath"]
+position = Vector2( 448.858, 1634.84 )
+rotation = 1.18201
+
+[node name="Tree5" type="StaticBody2D" parent="trees"]
+position = Vector2( 62.3511, -76.6854 )
+script = ExtResource( 21 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TreeSprite" type="Sprite" parent="trees/Tree5"]
+position = Vector2( 556.981, 1685.97 )
+texture = ExtResource( 107 )
+
+[node name="FruitTimer" type="Timer" parent="trees/Tree5"]
+wait_time = 20.0
+autostart = true
+
+[node name="FruitSpawnPath" type="Path2D" parent="trees/Tree5"]
+curve = SubResource( 5 )
+
+[node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree5/FruitSpawnPath"]
+position = Vector2( 448.858, 1634.84 )
+rotation = 1.18201
+
+[node name="Tree6" type="StaticBody2D" parent="trees"]
+position = Vector2( -290.847, -55.6617 )
+script = ExtResource( 21 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="TreeSprite" type="Sprite" parent="trees/Tree6"]
+position = Vector2( 556.981, 1685.97 )
+texture = ExtResource( 107 )
+
+[node name="FruitTimer" type="Timer" parent="trees/Tree6"]
+wait_time = 2.0
+autostart = true
+
+[node name="FruitSpawnPath" type="Path2D" parent="trees/Tree6"]
+curve = SubResource( 5 )
+
+[node name="FruitSpawnLocation" type="PathFollow2D" parent="trees/Tree6/FruitSpawnPath"]
+position = Vector2( 448.858, 1634.84 )
+rotation = 1.18201
+
+[node name="Nest" type="StaticBody2D" parent="."]
+position = Vector2( 2952, 1615.04 )
+scale = Vector2( 4, 4 )
+script = ExtResource( 28 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="Nest"]
+position = Vector2( 0.000244141, 0.000488281 )
+scale = Vector2( 0.248965, 0.248965 )
+z_index = 2
+texture = ExtResource( 24 )
+script = ExtResource( 29 )
+
+[node name="Egg1" type="StaticBody2D" parent="Nest"]
+position = Vector2( -2.23645, -0.70108 )
+script = ExtResource( 26 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="HatchTimer" type="Timer" parent="Nest/Egg1"]
+wait_time = 5.0
+script = ExtResource( 27 )
+
+[node name="birb" type="AnimatedSprite" parent="Nest/Egg1"]
+scale = Vector2( 0.25, 0.25 )
+z_as_relative = false
+frames = SubResource( 6 )
+animation = "hatching"
+frame = 4
+speed_scale = 0.7
+playing = true
+
+[node name="Egg2" type="StaticBody2D" parent="Nest"]
+position = Vector2( -0.494411, -0.495666 )
+script = ExtResource( 26 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="HatchTimer" type="Timer" parent="Nest/Egg2"]
+wait_time = 10.0
+script = ExtResource( 27 )
+
+[node name="birb" type="AnimatedSprite" parent="Nest/Egg2"]
+scale = Vector2( 0.25, 0.25 )
+z_index = 1
+z_as_relative = false
+frames = SubResource( 6 )
+animation = "hatching"
+frame = 5
+speed_scale = 0.7
+playing = true
+
+[node name="Egg3" type="StaticBody2D" parent="Nest"]
+position = Vector2( 0.998616, -0.481689 )
+script = ExtResource( 26 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="HatchTimer" type="Timer" parent="Nest/Egg3"]
+wait_time = 15.0
+script = ExtResource( 27 )
+
+[node name="birb" type="AnimatedSprite" parent="Nest/Egg3"]
+scale = Vector2( 0.25, 0.25 )
+z_index = 1
+z_as_relative = false
+frames = SubResource( 6 )
+animation = "hatching"
+frame = 5
+speed_scale = 0.7
+playing = true
+
+[node name="Egg4" type="StaticBody2D" parent="Nest"]
+position = Vector2( 2.72834, -0.716705 )
+script = ExtResource( 26 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="HatchTimer" type="Timer" parent="Nest/Egg4"]
+wait_time = 20.0
+script = ExtResource( 27 )
+
+[node name="birb" type="AnimatedSprite" parent="Nest/Egg4"]
+scale = Vector2( 0.25, 0.25 )
+z_index = 1
+z_as_relative = false
+frames = SubResource( 6 )
+animation = "hatching"
+frame = 2
+speed_scale = 0.7
+playing = true
+
+[node name="HungerTimer" type="Timer" parent="Nest"]
+script = ExtResource( 30 )
+
+[node name="dropBox" type="Area2D" parent="Nest"]
+visible = false
+script = ExtResource( 32 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Nest/dropBox"]
+position = Vector2( 0.10466, -0.157013 )
+shape = SubResource( 7 )
+
+[node name="pointerRegion" type="Area2D" parent="Nest"]
+visible = false
+script = ExtResource( 100 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Nest/pointerRegion"]
+position = Vector2( -1.35092, -4.45801 )
+shape = SubResource( 8 )
+
+[node name="World Bounds" type="StaticBody2D" parent="."]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="World Bounds"]
+polygon = PoolVector2Array( 800, -2560, 776, -2280, 768, -2040, 0, -2040, -8, 1760, 5936, 1776, 5896, -2048, 768, -2040, 800, -2560, 6144, -2560, 6144, 2080, -256, 2080, -256, -2560 )
+
+[node name="EnemySpawner" type="StaticBody2D" parent="."]
+script = ExtResource( 36 )
+
+[node name="SpawnTimer" type="Timer" parent="EnemySpawner"]
+wait_time = 0.5
+one_shot = true
+autostart = true
+script = ExtResource( 109 )
+
+[node name="LongSpawnTimer" type="Timer" parent="EnemySpawner"]
+wait_time = 30.0
+one_shot = true
+script = ExtResource( 109 )
+
+[node name="EnemySpawnPath" type="Path2D" parent="EnemySpawner"]
+curve = SubResource( 9 )
+script = ExtResource( 120 )
+
+[node name="EnemySpawnLocation" type="PathFollow2D" parent="EnemySpawner/EnemySpawnPath"]
+position = Vector2( -497.309, -1723.01 )
+rotation = -1.56108
+
+[node name="start game" type="TextureButton" parent="."]
+margin_left = 2928.0
+margin_top = 1607.71
+margin_right = 3008.0
+margin_bottom = 1687.71
+texture_normal = ExtResource( 113 )
+texture_pressed = ExtResource( 104 )
+texture_hover = ExtResource( 112 )
+script = ExtResource( 103 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="help" type="TextureButton" parent="."]
+margin_left = 2936.0
+margin_top = 1680.0
+margin_right = 2986.0
+margin_bottom = 1720.0
+texture_normal = ExtResource( 101 )
+texture_pressed = ExtResource( 102 )
+script = ExtResource( 111 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HelpText" type="RichTextLabel" parent="help"]
+modulate = Color( 0.0470588, 0.0117647, 0.219608, 1 )
+margin_left = 40.0
+margin_top = -216.0
+margin_right = 276.0
+margin_bottom = 64.0
+text = "How to play:
+  - Use mouse to control the 		mother bird
+  - Keep your chicks alive by 		keeping them fed
+  - Enemy birds will steal your 	chicks food from the nest
+	
+	Feeding:
+	  - Fly and hover near the 			cherries to pick them  
+	  - Fly over nest to feed chicks 			with collected food
+	
+	Enemy:
+	  - Left click to Squawk at 		enemy birds to scare them 		away"
+script = ExtResource( 110 )
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+[connection signal="setScore" from="Player" to="Nest" method="_on_Player_setScore"]
+[connection signal="squawked" from="Player" to="EnemySpawner" method="_on_Player_squawked"]
+[connection signal="stopGame" from="Player/visualTimer" to="Nest/HungerTimer" method="_on_visualGameTimer_stopGame"]
+[connection signal="stopGame" from="Player/visualTimer" to="Nest/Egg1/HatchTimer" method="_on_visualGameTimer_stopGame"]
+[connection signal="stopGame" from="Player/visualTimer" to="Player" method="_on_visualGameTimer_stopGame"]
+[connection signal="stopGame" from="Player/visualTimer" to="EnemySpawner" method="_on_visualGameTimer_stopGame"]
+[connection signal="stopGame" from="Player/visualTimer" to="EnemySpawner" method="_on_visualTimer_stopGame"]
+[connection signal="timeout" from="Player/visualTimer/GameTimer" to="Player/visualTimer" method="_on_GameTimer_timeout"]
+[connection signal="timeout" from="Player/Squawk/SquawkTimer" to="Player" method="_on_SquawkTimer_timeout"]
+[connection signal="fruitGot" from="trees/Tree2" to="Player" method="_on_Tree_fruitGot"]
+[connection signal="ready" from="trees/Tree2/FruitTimer" to="start game" method="_on_FruitTimer_ready"]
+[connection signal="timeout" from="trees/Tree2/FruitTimer" to="trees/Tree2" method="_on_FruitTimer_timeout"]
+[connection signal="fruitGot" from="trees/Tree7" to="Player" method="_on_Tree_fruitGot"]
+[connection signal="ready" from="trees/Tree7/FruitTimer" to="start game" method="_on_FruitTimer_ready"]
+[connection signal="timeout" from="trees/Tree7/FruitTimer" to="trees/Tree7" method="_on_FruitTimer_timeout"]
+[connection signal="fruitGot" from="trees/Tree8" to="Player" method="_on_Tree_fruitGot"]
+[connection signal="ready" from="trees/Tree8/FruitTimer" to="start game" method="_on_FruitTimer_ready"]
+[connection signal="timeout" from="trees/Tree8/FruitTimer" to="trees/Tree8" method="_on_FruitTimer_timeout"]
+[connection signal="fruitGot" from="trees/Tree9" to="Player" method="_on_Tree_fruitGot"]
+[connection signal="ready" from="trees/Tree9/FruitTimer" to="start game" method="_on_FruitTimer_ready"]
+[connection signal="timeout" from="trees/Tree9/FruitTimer" to="trees/Tree9" method="_on_FruitTimer_timeout"]
+[connection signal="fruitGot" from="trees/Tree13" to="Player" method="_on_Tree_fruitGot"]
+[connection signal="ready" from="trees/Tree13/FruitTimer" to="start game" method="_on_FruitTimer_ready"]
+[connection signal="timeout" from="trees/Tree13/FruitTimer" to="trees/Tree13" method="_on_FruitTimer_timeout"]
+[connection signal="fruitGot" from="trees/Tree10" to="Player" method="_on_Tree_fruitGot"]
+[connection signal="ready" from="trees/Tree10/FruitTimer" to="start game" method="_on_FruitTimer_ready"]
+[connection signal="timeout" from="trees/Tree10/FruitTimer" to="trees/Tree10" method="_on_FruitTimer_timeout"]
+[connection signal="fruitGot" from="trees/Tree11" to="Player" method="_on_Tree_fruitGot"]
+[connection signal="ready" from="trees/Tree11/FruitTimer" to="start game" method="_on_FruitTimer_ready"]
+[connection signal="timeout" from="trees/Tree11/FruitTimer" to="trees/Tree11" method="_on_FruitTimer_timeout"]
+[connection signal="fruitGot" from="trees/Tree12" to="Player" method="_on_Tree_fruitGot"]
+[connection signal="ready" from="trees/Tree12/FruitTimer" to="start game" method="_on_FruitTimer_ready"]
+[connection signal="timeout" from="trees/Tree12/FruitTimer" to="trees/Tree12" method="_on_FruitTimer_timeout"]
+[connection signal="fruitGot" from="trees/Tree3" to="Player" method="_on_Tree_fruitGot"]
+[connection signal="ready" from="trees/Tree3/FruitTimer" to="start game" method="_on_FruitTimer_ready"]
+[connection signal="timeout" from="trees/Tree3/FruitTimer" to="trees/Tree3" method="_on_FruitTimer_timeout"]
+[connection signal="fruitGot" from="trees/Tree4" to="Player" method="_on_Tree_fruitGot"]
+[connection signal="ready" from="trees/Tree4/FruitTimer" to="start game" method="_on_FruitTimer_ready"]
+[connection signal="timeout" from="trees/Tree4/FruitTimer" to="trees/Tree4" method="_on_FruitTimer_timeout"]
+[connection signal="fruitGot" from="trees/Tree5" to="Player" method="_on_Tree_fruitGot"]
+[connection signal="ready" from="trees/Tree5/FruitTimer" to="start game" method="_on_FruitTimer_ready"]
+[connection signal="timeout" from="trees/Tree5/FruitTimer" to="trees/Tree5" method="_on_FruitTimer_timeout"]
+[connection signal="fruitGot" from="trees/Tree6" to="Player" method="_on_Tree_fruitGot"]
+[connection signal="ready" from="trees/Tree6/FruitTimer" to="start game" method="_on_FruitTimer_ready"]
+[connection signal="timeout" from="trees/Tree6/FruitTimer" to="trees/Tree6" method="_on_FruitTimer_timeout"]
+[connection signal="getScore" from="Nest" to="Player" method="_on_Nest_getScore"]
+[connection signal="setHunger" from="Nest" to="Player" method="_on_Nest_setHunger"]
+[connection signal="hatched" from="Nest/Egg1" to="Nest" method="_on_Egg1_hatched"]
+[connection signal="timeout" from="Nest/Egg1/HatchTimer" to="Nest/Egg1/HatchTimer" method="_on_HatchTimer_timeout"]
+[connection signal="timeout" from="Nest/Egg1/HatchTimer" to="Nest/Egg1" method="_on_HatchTimer_timeout"]
+[connection signal="hatched" from="Nest/Egg2" to="Nest" method="_on_Egg2_hatched"]
+[connection signal="timeout" from="Nest/Egg2/HatchTimer" to="Nest/Egg2/HatchTimer" method="_on_HatchTimer_timeout"]
+[connection signal="timeout" from="Nest/Egg2/HatchTimer" to="Nest/Egg2" method="_on_HatchTimer_timeout"]
+[connection signal="hatched" from="Nest/Egg3" to="Nest" method="_on_Egg3_hatched"]
+[connection signal="timeout" from="Nest/Egg3/HatchTimer" to="Nest/Egg3/HatchTimer" method="_on_HatchTimer_timeout"]
+[connection signal="timeout" from="Nest/Egg3/HatchTimer" to="Nest/Egg3" method="_on_HatchTimer_timeout"]
+[connection signal="hatched" from="Nest/Egg4" to="Nest" method="_on_Egg4_hatched"]
+[connection signal="timeout" from="Nest/Egg4/HatchTimer" to="Nest/Egg4/HatchTimer" method="_on_HatchTimer_timeout"]
+[connection signal="timeout" from="Nest/Egg4/HatchTimer" to="Nest/Egg4" method="_on_HatchTimer_timeout"]
+[connection signal="timeout" from="Nest/HungerTimer" to="Nest" method="_on_HungerTimer_timeout"]
+[connection signal="area_entered" from="Nest/dropBox" to="Nest" method="_on_dropBox_area_entered"]
+[connection signal="body_entered" from="Nest/dropBox" to="Nest" method="_on_dropBox_body_entered"]
+[connection signal="body_entered" from="Nest/pointerRegion" to="Player" method="_on_pointerRegion_body_entered"]
+[connection signal="body_exited" from="Nest/pointerRegion" to="Player" method="_on_pointerRegion_body_exited"]
+[connection signal="timeout" from="EnemySpawner/SpawnTimer" to="EnemySpawner" method="_on_SpawnTimer_timeout"]
+[connection signal="timeout" from="EnemySpawner/LongSpawnTimer" to="EnemySpawner" method="_on_LongSpawnTimer_timeout"]
+[connection signal="pressed" from="start game" to="start game" method="_on_start_game_pressed"]
+[connection signal="start_timer" from="start game" to="Player/visualTimer" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Player/visualTimer/GameTimer" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Nest/HungerTimer" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Nest/Egg1/HatchTimer" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="help" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Player" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="EnemySpawner" method="_on_start_game_start_timer"]
+[connection signal="button_down" from="help" to="help/HelpText" method="_on_help_button_down"]
+[connection signal="button_up" from="help" to="help/HelpText" method="_on_help_button_up"]
+[connection signal="toggled" from="help" to="help/HelpText" method="_on_help_toggled"]

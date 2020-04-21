@@ -1,0 +1,101 @@
+[gd_scene load_steps=22 format=2]
+
+[ext_resource path="res://Enemy.gd" type="Script" id=1]
+[ext_resource path="res://Crow Sprites/nw1.png" type="Texture" id=2]
+[ext_resource path="res://Crow Sprites/se1.png" type="Texture" id=3]
+[ext_resource path="res://Crow Sprites/se2.png" type="Texture" id=4]
+[ext_resource path="res://Crow Sprites/n3.png" type="Texture" id=5]
+[ext_resource path="res://Crow Sprites/e1.png" type="Texture" id=6]
+[ext_resource path="res://Crow Sprites/ne1.png" type="Texture" id=7]
+[ext_resource path="res://Crow Sprites/sw1.png" type="Texture" id=8]
+[ext_resource path="res://Crow Sprites/sw2.png" type="Texture" id=9]
+[ext_resource path="res://Crow Sprites/w1.png" type="Texture" id=10]
+[ext_resource path="res://Crow Sprites/w2.png" type="Texture" id=11]
+[ext_resource path="res://Crow Sprites/s2.png" type="Texture" id=12]
+[ext_resource path="res://Crow Sprites/n1.png" type="Texture" id=13]
+[ext_resource path="res://Crow Sprites/e2.png" type="Texture" id=14]
+[ext_resource path="res://Crow Sprites/ne2.png" type="Texture" id=15]
+[ext_resource path="res://Crow Sprites/nw2.png" type="Texture" id=16]
+[ext_resource path="res://Crow Sprites/s1.png" type="Texture" id=17]
+[ext_resource path="res://Crow Sprites/n2.png" type="Texture" id=18]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 7 ), ExtResource( 15 ) ],
+"loop": true,
+"name": "NE",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ), ExtResource( 16 ) ],
+"loop": true,
+"name": "NW",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "SW",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 14 ) ],
+"loop": true,
+"name": "E",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 10 ), ExtResource( 11 ) ],
+"loop": true,
+"name": "W",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 13 ), ExtResource( 18 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "N",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 17 ), ExtResource( 12 ) ],
+"loop": true,
+"name": "S",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "SE",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 0.0901537
+
+[sub_resource type="Curve2D" id=3]
+_data = {
+"points": PoolVector2Array( 0, 0, 0, 0, -42.1158, -1.30964, 0, 0, 0, 0, -32.6845, -41.2539, 0, 0, 0, 0, 31.1154, -44.0278, 0, 0, 0, 0, 44.1528, -0.477463, 0, 0, 0, 0, 30.5607, -44.3052, 0, 0, 0, 0, -33.5166, -41.8087, 0, 0, 0, 0, -42.1158, -1.30964 )
+}
+
+[node name="Enemy" type="KinematicBody2D"]
+z_as_relative = false
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="crowSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "W"
+
+[node name="WiggleTimer" type="Timer" parent="."]
+wait_time = 0.1
+autostart = true
+
+[node name="hitBox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hitBox"]
+scale = Vector2( 60, 60 )
+shape = SubResource( 2 )
+
+[node name="flyAwayPath" type="Path2D" parent="."]
+curve = SubResource( 3 )
+
+[node name="flyAwayLocation" type="PathFollow2D" parent="flyAwayPath"]
+position = Vector2( -42.1158, -1.30964 )
+rotation = -1.33893
+[connection signal="timeout" from="WiggleTimer" to="." method="_on_WiggleTimer_timeout"]
+[connection signal="area_entered" from="hitBox" to="." method="_on_hitBox_area_entered"]
