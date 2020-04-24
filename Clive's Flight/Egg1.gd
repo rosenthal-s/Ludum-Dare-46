@@ -15,7 +15,7 @@ func _ready():
 #	pass
 func kill():
 	#display blank animation
-	print("bird is kill")
+	$birb.play("dead")
 	alive = false
 
 

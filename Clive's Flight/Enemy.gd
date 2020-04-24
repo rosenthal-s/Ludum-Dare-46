@@ -11,7 +11,8 @@ const MIN_SPEED = 250
 const ACCELERATION = 100 * 60
 const FRICTION = 50 * 60
 const GRAVITY = 12
-const WIGGLE_RANGE = Vector2(20,40)
+const WIGGLE_RANGE = Vector2(50,80)
+var fleeing = false
 
 
 func _process(delta):
@@ -68,7 +69,6 @@ func _on_hitBox_area_entered(area):
 		nestPos = $flyAwayPath/flyAwayLocation.position
 		
 
-
 func get_enemyPos():
 	return enemyPos
 
@@ -79,5 +79,7 @@ func isAlive():
 
 func scared():
 	randomize()
-	$flyAwayPath/flyAwayLocation.set_unit_offset(randf())
-	nestPos = $flyAwayPath/flyAwayLocation.position
+	if fleeing == false:
+		$flyAwayPath/flyAwayLocation.set_unit_offset(randf())
+		nestPos = $flyAwayPath/flyAwayLocation.position
+		fleeing = true

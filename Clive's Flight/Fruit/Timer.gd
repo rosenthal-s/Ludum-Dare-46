@@ -4,7 +4,8 @@ extends Timer
 
 
 func _on_detection_area_body_entered(Player):
-	start()
+	if Player.getScore() < 4:
+		start()
 
 
 func _on_detection_area_body_exited(Player):

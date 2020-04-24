@@ -25,6 +25,8 @@ func _ready():
 func _process(delta):
 	#print("Player Score: ",score)
 	#calculate the angle between the mouse and the player
+	$CherryUI.play(str(score))
+	
 	if buttonPress == true:
 		var angle = 0
 		if pathVector.x == 0:
@@ -96,10 +98,11 @@ func _physics_process(delta):
 		velocity.y += GRAVITY
 		velocity = move_and_slide(velocity)
 		
-
-
+		
 func _on_Tree_fruitGot():
-	score += 1
+	if score < 4:
+		$Cronch.play()
+		score += 1
 
 
 func _on_Nest_getScore():
@@ -112,11 +115,11 @@ func _on_Nest_setHunger(hunger):
 	$hungerBar.play(hunger)
 
 
-func _on_pointerRegion_body_entered(Nest):
+func _on_pointerRegion_body_entered(body):
 	$pointer/pointerSprite.play("blank")
 
 
-func _on_pointerRegion_body_exited(Nest):
+func _on_pointerRegion_body_exited(body):
 	$pointer/pointerSprite.play("pointing")
 
 
@@ -126,6 +129,8 @@ func _on_start_game_start_timer():
 	$"Clive's Song".play()
 	$PauseButton.disabled = false
 
+func getScore():
+	return(score)
 
 func _on_visualGameTimer_stopGame():
 	buttonPress = false
@@ -133,3 +138,5 @@ func _on_visualGameTimer_stopGame():
 
 func _on_SquawkTimer_timeout():
 	squawk = true
+
+

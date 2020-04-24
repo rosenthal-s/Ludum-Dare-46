@@ -26,14 +26,14 @@ animations = [ {
 "name": "NE",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 2 ), ExtResource( 16 ) ],
+"frames": [ ExtResource( 13 ), ExtResource( 18 ), ExtResource( 5 ) ],
 "loop": true,
-"name": "NW",
+"name": "N",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 8 ), ExtResource( 9 ) ],
+"frames": [ ExtResource( 3 ), ExtResource( 4 ) ],
 "loop": true,
-"name": "SW",
+"name": "SE",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 6 ), ExtResource( 14 ) ],
@@ -41,24 +41,24 @@ animations = [ {
 "name": "E",
 "speed": 5.0
 }, {
+"frames": [ ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "SW",
+"speed": 5.0
+}, {
 "frames": [ ExtResource( 10 ), ExtResource( 11 ) ],
 "loop": true,
 "name": "W",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 13 ), ExtResource( 18 ), ExtResource( 5 ) ],
+"frames": [ ExtResource( 2 ), ExtResource( 16 ) ],
 "loop": true,
-"name": "N",
+"name": "NW",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 17 ), ExtResource( 12 ) ],
 "loop": true,
 "name": "S",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 3 ), ExtResource( 4 ) ],
-"loop": true,
-"name": "SE",
 "speed": 5.0
 } ]
 
@@ -67,10 +67,11 @@ radius = 0.0901537
 
 [sub_resource type="Curve2D" id=3]
 _data = {
-"points": PoolVector2Array( 0, 0, 0, 0, -42.1158, -1.30964, 0, 0, 0, 0, -32.6845, -41.2539, 0, 0, 0, 0, 31.1154, -44.0278, 0, 0, 0, 0, 44.1528, -0.477463, 0, 0, 0, 0, 30.5607, -44.3052, 0, 0, 0, 0, -33.5166, -41.8087, 0, 0, 0, 0, -42.1158, -1.30964 )
+"points": PoolVector2Array( 0, 0, 0, 0, -52488, -16785.8, 0, 0, 0, 0, -23282, -27930.2, 0, 0, 0, 0, 38684.6, -28122.4, 0, 0, 0, 0, 60973.4, -23126.6, 0, 0, 0, 0, 71157.1, -7082.53, 0, 0, 0, 0, 58283.4, -24567.7, 0, 0, 0, 0, 30518.5, -26873.4, 0, 0, 0, 0, -24050.6, -27065.6, 0, 0, 0, 0, -46051.1, -18995.5, 0, 0, 0, 0, -52488, -16785.8 )
 }
 
 [node name="Enemy" type="KinematicBody2D"]
+position = Vector2( 3.31337, -0.631111 )
 z_as_relative = false
 script = ExtResource( 1 )
 __meta__ = {
@@ -95,7 +96,7 @@ shape = SubResource( 2 )
 curve = SubResource( 3 )
 
 [node name="flyAwayLocation" type="PathFollow2D" parent="flyAwayPath"]
-position = Vector2( -42.1158, -1.30964 )
-rotation = -1.33893
+position = Vector2( -52488, -16785.8 )
+rotation = -0.363758
 [connection signal="timeout" from="WiggleTimer" to="." method="_on_WiggleTimer_timeout"]
 [connection signal="area_entered" from="hitBox" to="." method="_on_hitBox_area_entered"]
