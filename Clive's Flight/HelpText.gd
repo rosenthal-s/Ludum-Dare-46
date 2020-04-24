@@ -16,7 +16,7 @@ func _ready():
 
 
 func _on_help_button_down():
-	set_text("How to play:\n- Use mouse to control the 		mother bird\n- Keep your chicks alive by 		keeping them fed\n- Enemy birds will steal your 		chicks food from the nest\nFeeding:\n	- Fly and hover near the 			cherries to pick them  \n	- Fly over nest to feed chicks 			with collected food\nEnemy:\n	 - Left click to Squawk at 		enemy birds to scare them 		away")
+	set_text("How to play:\n	- Use your mouse to control 		the father bird\n	- Keep your chicks alive by 		keeping them fed\n	- Enemy birds will steal your 		chicks' food from the nest\nFeeding:\n	- Fly and hover near the 			cherries to pick them  \n	- Fly over nest to feed chicks 			with collected food\nEnemies:\n	 - Right click to Squawk at 		enemy birds to scare them 		away")
 
 
 
