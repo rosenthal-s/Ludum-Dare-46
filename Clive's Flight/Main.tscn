@@ -100,8 +100,8 @@
 [ext_resource path="res://pointer.gd" type="Script" id=98]
 [ext_resource path="res://sprites/Nest Arrow.png" type="Texture" id=99]
 [ext_resource path="res://pointerRegion.gd" type="Script" id=100]
-[ext_resource path="res://sprites/button unclicked.png" type="Texture" id=101]
-[ext_resource path="res://sprites/button clicked.png" type="Texture" id=102]
+[ext_resource path="res://sprites/resized help button hover.png" type="Texture" id=101]
+[ext_resource path="res://sprites/resized help button.png" type="Texture" id=102]
 [ext_resource path="res://start game.gd" type="Script" id=103]
 [ext_resource path="res://sprites/button pushed.png" type="Texture" id=104]
 [ext_resource path="res://Game Timer.gd" type="Script" id=105]
@@ -123,16 +123,6 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 5 ), ExtResource( 6 ) ],
-"loop": true,
-"name": "NE",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 8 ), ExtResource( 9 ) ],
-"loop": true,
-"name": "NW",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 17 ), ExtResource( 18 ) ],
 "loop": true,
 "name": "S",
@@ -143,14 +133,14 @@ animations = [ {
 "name": "SE",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 4 ), ExtResource( 3 ) ],
-"loop": true,
-"name": "E",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 12 ), ExtResource( 13 ) ],
 "loop": true,
 "name": "SW",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ) ],
+"loop": true,
+"name": "N",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 7 ), ExtResource( 1 ) ],
@@ -158,9 +148,19 @@ animations = [ {
 "name": "W",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ) ],
+"frames": [ ExtResource( 5 ), ExtResource( 6 ) ],
 "loop": true,
-"name": "N",
+"name": "NE",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "E",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "NW",
 "speed": 5.0
 } ]
 
@@ -175,26 +175,6 @@ animations = [ {
 "name": "44",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 67 ) ],
-"loop": true,
-"name": "51",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 70 ) ],
-"loop": true,
-"name": "53",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 92 ) ],
-"loop": true,
-"name": "28",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 76 ) ],
-"loop": true,
-"name": "46",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 37 ) ],
 "loop": true,
 "name": "7",
@@ -205,29 +185,14 @@ animations = [ {
 "name": "21",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 49 ) ],
-"loop": true,
-"name": "9",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 59 ) ],
-"loop": true,
-"name": "52",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 75 ) ],
-"loop": true,
-"name": "41",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 64 ) ],
 "loop": true,
 "name": "55",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 90 ) ],
+"frames": [ ExtResource( 67 ) ],
 "loop": true,
-"name": "27",
+"name": "51",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 46 ) ],
@@ -235,29 +200,19 @@ animations = [ {
 "name": "19",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 52 ) ],
+"frames": [ ExtResource( 90 ) ],
 "loop": true,
-"name": "0",
+"name": "27",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 55 ) ],
+"frames": [ ExtResource( 92 ) ],
 "loop": true,
-"name": "15",
+"name": "28",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 45 ) ],
+"frames": [ ExtResource( 70 ) ],
 "loop": true,
-"name": "6",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 78 ) ],
-"loop": true,
-"name": "60",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 69 ) ],
-"loop": true,
-"name": "59",
+"name": "53",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 42 ) ],
@@ -265,69 +220,19 @@ animations = [ {
 "name": "14",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 91 ) ],
+"frames": [ ExtResource( 55 ) ],
 "loop": true,
-"name": "30",
+"name": "15",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 41 ) ],
+"frames": [ ExtResource( 59 ) ],
 "loop": true,
-"name": "13",
+"name": "52",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 47 ) ],
+"frames": [ ExtResource( 76 ) ],
 "loop": true,
-"name": "20",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 71 ) ],
-"loop": true,
-"name": "56",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 38 ) ],
-"loop": true,
-"name": "2",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 88 ) ],
-"loop": true,
-"name": "33",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 77 ) ],
-"loop": true,
-"name": "48",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 81 ) ],
-"loop": true,
-"name": "38",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 94 ) ],
-"loop": true,
-"name": "25",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 63 ) ],
-"loop": true,
-"name": "49",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 80 ) ],
-"loop": true,
-"name": "36",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 85 ) ],
-"loop": true,
-"name": "32",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 83 ) ],
-"loop": true,
-"name": "37",
+"name": "46",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 50 ) ],
@@ -335,114 +240,9 @@ animations = [ {
 "name": "11",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 72 ) ],
+"frames": [ ExtResource( 49 ) ],
 "loop": true,
-"name": "50",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 58 ) ],
-"loop": true,
-"name": "16",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 96 ) ],
-"loop": true,
-"name": "23",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 53 ) ],
-"loop": true,
-"name": "5",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 86 ) ],
-"loop": true,
-"name": "31",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 54 ) ],
-"loop": true,
-"name": "10",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 65 ) ],
-"loop": true,
-"name": "58",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 60 ) ],
-"loop": true,
-"name": "42",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 62 ) ],
-"loop": true,
-"name": "54",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 87 ) ],
-"loop": true,
-"name": "34",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 40 ) ],
-"loop": true,
-"name": "18",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 56 ) ],
-"loop": true,
-"name": "1",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 97 ) ],
-"loop": true,
-"name": "24",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 66 ) ],
-"loop": true,
-"name": "43",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 61 ) ],
-"loop": true,
-"name": "47",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 79 ) ],
-"loop": true,
-"name": "40",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 39 ) ],
-"loop": true,
-"name": "8",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 93 ) ],
-"loop": true,
-"name": "29",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 44 ) ],
-"loop": true,
-"name": "17",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 84 ) ],
-"loop": true,
-"name": "39",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 82 ) ],
-"loop": true,
-"name": "35",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 95 ) ],
-"loop": true,
-"name": "22",
+"name": "9",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 68 ) ],
@@ -450,9 +250,59 @@ animations = [ {
 "name": "57",
 "speed": 5.0
 }, {
+"frames": [ ExtResource( 71 ) ],
+"loop": true,
+"name": "56",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 91 ) ],
+"loop": true,
+"name": "30",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 83 ) ],
+"loop": true,
+"name": "37",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 53 ) ],
+"loop": true,
+"name": "5",
+"speed": 5.0
+}, {
 "frames": [ ExtResource( 89 ) ],
 "loop": true,
 "name": "26",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 95 ) ],
+"loop": true,
+"name": "22",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 38 ) ],
+"loop": true,
+"name": "2",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 65 ) ],
+"loop": true,
+"name": "58",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 69 ) ],
+"loop": true,
+"name": "59",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 88 ) ],
+"loop": true,
+"name": "33",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 84 ) ],
+"loop": true,
+"name": "39",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 74 ) ],
@@ -460,9 +310,149 @@ animations = [ {
 "name": "45",
 "speed": 5.0
 }, {
+"frames": [ ExtResource( 43 ) ],
+"loop": true,
+"name": "12",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 82 ) ],
+"loop": true,
+"name": "35",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 96 ) ],
+"loop": true,
+"name": "23",
+"speed": 5.0
+}, {
 "frames": [ ExtResource( 51 ) ],
 "loop": true,
 "name": "3",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 62 ) ],
+"loop": true,
+"name": "54",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 78 ) ],
+"loop": true,
+"name": "60",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 86 ) ],
+"loop": true,
+"name": "31",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 61 ) ],
+"loop": true,
+"name": "47",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 72 ) ],
+"loop": true,
+"name": "50",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 41 ) ],
+"loop": true,
+"name": "13",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 60 ) ],
+"loop": true,
+"name": "42",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 75 ) ],
+"loop": true,
+"name": "41",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 79 ) ],
+"loop": true,
+"name": "40",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 40 ) ],
+"loop": true,
+"name": "18",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 63 ) ],
+"loop": true,
+"name": "49",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 54 ) ],
+"loop": true,
+"name": "10",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 47 ) ],
+"loop": true,
+"name": "20",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 66 ) ],
+"loop": true,
+"name": "43",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 58 ) ],
+"loop": true,
+"name": "16",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 81 ) ],
+"loop": true,
+"name": "38",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 93 ) ],
+"loop": true,
+"name": "29",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 94 ) ],
+"loop": true,
+"name": "25",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 39 ) ],
+"loop": true,
+"name": "8",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 87 ) ],
+"loop": true,
+"name": "34",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 44 ) ],
+"loop": true,
+"name": "17",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 56 ) ],
+"loop": true,
+"name": "1",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 52 ) ],
+"loop": true,
+"name": "0",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 85 ) ],
+"loop": true,
+"name": "32",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 45 ) ],
+"loop": true,
+"name": "6",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 57 ) ],
@@ -470,9 +460,19 @@ animations = [ {
 "name": "4",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 43 ) ],
+"frames": [ ExtResource( 77 ) ],
 "loop": true,
-"name": "12",
+"name": "48",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 97 ) ],
+"loop": true,
+"name": "24",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 80 ) ],
+"loop": true,
+"name": "36",
 "speed": 5.0
 } ]
 
@@ -970,7 +970,7 @@ scale = Vector2( 0.25, 0.25 )
 z_as_relative = false
 frames = SubResource( 7 )
 animation = "hatching"
-frame = 4
+frame = 1
 speed_scale = 0.7
 playing = true
 
@@ -991,7 +991,7 @@ z_index = 1
 z_as_relative = false
 frames = SubResource( 7 )
 animation = "hatching"
-frame = 5
+frame = 2
 speed_scale = 0.7
 playing = true
 
@@ -1012,7 +1012,7 @@ z_index = 1
 z_as_relative = false
 frames = SubResource( 7 )
 animation = "hatching"
-frame = 5
+frame = 2
 speed_scale = 0.7
 playing = true
 
@@ -1033,7 +1033,7 @@ z_index = 1
 z_as_relative = false
 frames = SubResource( 7 )
 animation = "hatching"
-frame = 2
+frame = 5
 speed_scale = 0.7
 playing = true
 
@@ -1088,9 +1088,9 @@ rotation = -1.56108
 
 [node name="start game" type="TextureButton" parent="."]
 margin_left = 2928.0
-margin_top = 1607.71
+margin_top = 1608.0
 margin_right = 3008.0
-margin_bottom = 1687.71
+margin_bottom = 1688.0
 texture_normal = ExtResource( 113 )
 texture_pressed = ExtResource( 104 )
 texture_hover = ExtResource( 112 )
@@ -1100,12 +1100,12 @@ __meta__ = {
 }
 
 [node name="help" type="TextureButton" parent="."]
-margin_left = 2936.0
+margin_left = 2928.65
 margin_top = 1680.0
-margin_right = 2986.0
-margin_bottom = 1720.0
-texture_normal = ExtResource( 101 )
-texture_pressed = ExtResource( 102 )
+margin_right = 2992.65
+margin_bottom = 1744.0
+texture_normal = ExtResource( 102 )
+texture_hover = ExtResource( 101 )
 script = ExtResource( 111 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -1113,21 +1113,21 @@ __meta__ = {
 
 [node name="HelpText" type="RichTextLabel" parent="help"]
 modulate = Color( 0.0470588, 0.0117647, 0.219608, 1 )
-margin_left = 40.0
-margin_top = -216.0
-margin_right = 276.0
-margin_bottom = 64.0
+margin_left = -210.0
+margin_top = -192.0
+margin_right = 3.0
+margin_bottom = 88.0
 text = "How to play:
-  - Use mouse to control the 		mother bird
-  - Keep your chicks alive by 		keeping them fed
-  - Enemy birds will steal your 	chicks food from the nest
-	
-	Feeding:
-	  - Fly and hover near the 			cherries to pick them  
-	  - Fly over nest to feed chicks 			with collected food
-	
-	Enemy:
-	  - Left click to Squawk at 		enemy birds to scare them 		away"
+- Use your mouse to control the father bird
+- Keep your chicks alive by keeping them fed
+- Enemy birds will steal your chicks' food from the nest
+
+Feeding:
+- Fly and hover near the cherries to pick them
+- Fly over nest to feed chicks with collected food
+
+Enemies:
+- Right click to Squawk at enemy birds to scare them away"
 script = ExtResource( 110 )
 __meta__ = {
 "_edit_use_anchors_": false,
@@ -1135,11 +1135,11 @@ __meta__ = {
 }
 [connection signal="setScore" from="Player" to="Nest" method="_on_Player_setScore"]
 [connection signal="squawked" from="Player" to="EnemySpawner" method="_on_Player_squawked"]
-[connection signal="stopGame" from="Player/visualTimer" to="Nest/Egg1/HatchTimer" method="_on_visualGameTimer_stopGame"]
-[connection signal="stopGame" from="Player/visualTimer" to="Nest/HungerTimer" method="_on_visualGameTimer_stopGame"]
-[connection signal="stopGame" from="Player/visualTimer" to="Player" method="_on_visualGameTimer_stopGame"]
 [connection signal="stopGame" from="Player/visualTimer" to="EnemySpawner" method="_on_visualGameTimer_stopGame"]
 [connection signal="stopGame" from="Player/visualTimer" to="EnemySpawner" method="_on_visualTimer_stopGame"]
+[connection signal="stopGame" from="Player/visualTimer" to="Player" method="_on_visualGameTimer_stopGame"]
+[connection signal="stopGame" from="Player/visualTimer" to="Nest/HungerTimer" method="_on_visualGameTimer_stopGame"]
+[connection signal="stopGame" from="Player/visualTimer" to="Nest/Egg1/HatchTimer" method="_on_visualGameTimer_stopGame"]
 [connection signal="timeout" from="Player/visualTimer/GameTimer" to="Player/visualTimer" method="_on_GameTimer_timeout"]
 [connection signal="timeout" from="Player/Squawk/SquawkTimer" to="Player" method="_on_SquawkTimer_timeout"]
 [connection signal="fruitGot" from="trees/Tree2" to="Player" method="_on_Tree_fruitGot"]
@@ -1181,17 +1181,17 @@ __meta__ = {
 [connection signal="getScore" from="Nest" to="Player" method="_on_Nest_getScore"]
 [connection signal="setHunger" from="Nest" to="Player" method="_on_Nest_setHunger"]
 [connection signal="hatched" from="Nest/Egg1" to="Nest" method="_on_Egg1_hatched"]
-[connection signal="timeout" from="Nest/Egg1/HatchTimer" to="Nest/Egg1/HatchTimer" method="_on_HatchTimer_timeout"]
 [connection signal="timeout" from="Nest/Egg1/HatchTimer" to="Nest/Egg1" method="_on_HatchTimer_timeout"]
+[connection signal="timeout" from="Nest/Egg1/HatchTimer" to="Nest/Egg1/HatchTimer" method="_on_HatchTimer_timeout"]
 [connection signal="hatched" from="Nest/Egg2" to="Nest" method="_on_Egg2_hatched"]
-[connection signal="timeout" from="Nest/Egg2/HatchTimer" to="Nest/Egg2/HatchTimer" method="_on_HatchTimer_timeout"]
 [connection signal="timeout" from="Nest/Egg2/HatchTimer" to="Nest/Egg2" method="_on_HatchTimer_timeout"]
+[connection signal="timeout" from="Nest/Egg2/HatchTimer" to="Nest/Egg2/HatchTimer" method="_on_HatchTimer_timeout"]
 [connection signal="hatched" from="Nest/Egg3" to="Nest" method="_on_Egg3_hatched"]
-[connection signal="timeout" from="Nest/Egg3/HatchTimer" to="Nest/Egg3/HatchTimer" method="_on_HatchTimer_timeout"]
 [connection signal="timeout" from="Nest/Egg3/HatchTimer" to="Nest/Egg3" method="_on_HatchTimer_timeout"]
+[connection signal="timeout" from="Nest/Egg3/HatchTimer" to="Nest/Egg3/HatchTimer" method="_on_HatchTimer_timeout"]
 [connection signal="hatched" from="Nest/Egg4" to="Nest" method="_on_Egg4_hatched"]
-[connection signal="timeout" from="Nest/Egg4/HatchTimer" to="Nest/Egg4/HatchTimer" method="_on_HatchTimer_timeout"]
 [connection signal="timeout" from="Nest/Egg4/HatchTimer" to="Nest/Egg4" method="_on_HatchTimer_timeout"]
+[connection signal="timeout" from="Nest/Egg4/HatchTimer" to="Nest/Egg4/HatchTimer" method="_on_HatchTimer_timeout"]
 [connection signal="timeout" from="Nest/HungerTimer" to="Nest" method="_on_HungerTimer_timeout"]
 [connection signal="area_entered" from="Nest/dropBox" to="Nest" method="_on_dropBox_area_entered"]
 [connection signal="body_entered" from="Nest/dropBox" to="Nest" method="_on_dropBox_body_entered"]
@@ -1200,13 +1200,16 @@ __meta__ = {
 [connection signal="timeout" from="EnemySpawner/SpawnTimer" to="EnemySpawner" method="_on_SpawnTimer_timeout"]
 [connection signal="timeout" from="EnemySpawner/LongSpawnTimer" to="EnemySpawner" method="_on_LongSpawnTimer_timeout"]
 [connection signal="pressed" from="start game" to="start game" method="_on_start_game_pressed"]
-[connection signal="start_timer" from="start game" to="Player/visualTimer" method="_on_start_game_start_timer"]
-[connection signal="start_timer" from="start game" to="Nest/Egg1/HatchTimer" method="_on_start_game_start_timer"]
-[connection signal="start_timer" from="start game" to="Player/visualTimer/GameTimer" method="_on_start_game_start_timer"]
-[connection signal="start_timer" from="start game" to="Nest/HungerTimer" method="_on_start_game_start_timer"]
 [connection signal="start_timer" from="start game" to="help" method="_on_start_game_start_timer"]
-[connection signal="start_timer" from="start game" to="Player" method="_on_start_game_start_timer"]
 [connection signal="start_timer" from="start game" to="EnemySpawner" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Player/visualTimer" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Player" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Nest/HungerTimer" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Player/visualTimer/GameTimer" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Nest/Egg1/HatchTimer" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Nest/Egg2/HatchTimer" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Nest/Egg3/HatchTimer" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Nest/Egg4/HatchTimer" method="_on_start_game_start_timer"]
 [connection signal="button_down" from="help" to="help/HelpText" method="_on_help_button_down"]
 [connection signal="button_up" from="help" to="help/HelpText" method="_on_help_button_up"]
 [connection signal="toggled" from="help" to="help/HelpText" method="_on_help_toggled"]

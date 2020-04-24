@@ -22,7 +22,5 @@ func _on_start_game_start_timer():
 	start()
 
 
-
-
 func _on_visualGameTimer_stopGame():
 	stop()

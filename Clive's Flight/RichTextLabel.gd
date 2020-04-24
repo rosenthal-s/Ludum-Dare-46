@@ -8,8 +8,8 @@ signal stopGame
 
 
 var ms = 0
-var s = 10
-var m = 10
+var s = 0#10
+var m = 2#10
 
 
 # Called when the node enters the scene tree for the first time.

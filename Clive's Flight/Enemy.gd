@@ -14,6 +14,11 @@ const GRAVITY = 12
 const WIGGLE_RANGE = Vector2(20,40)
 
 
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	randomize()
+
+
 func _process(delta):
 	var angle = 0
 	if pathVector.x == 0:
@@ -63,7 +68,6 @@ func _on_WiggleTimer_timeout():
 
 func _on_hitBox_area_entered(area):
 	if area.name == "dropBox":
-		randomize()
 		$flyAwayPath/flyAwayLocation.set_unit_offset(randf())
 		nestPos = $flyAwayPath/flyAwayLocation.position
 		
@@ -78,6 +82,5 @@ func isAlive():
 
 
 func scared():
-	randomize()
 	$flyAwayPath/flyAwayLocation.set_unit_offset(randf())
 	nestPos = $flyAwayPath/flyAwayLocation.position
