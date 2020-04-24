@@ -140,31 +140,6 @@ animations = [ {
 "name": "NE",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ) ],
-"loop": true,
-"name": "N",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 11 ), ExtResource( 10 ) ],
-"loop": true,
-"name": "SE",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 4 ), ExtResource( 3 ) ],
-"loop": true,
-"name": "E",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 12 ), ExtResource( 13 ) ],
-"loop": true,
-"name": "SW",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 7 ), ExtResource( 1 ) ],
-"loop": true,
-"name": "W",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 8 ), ExtResource( 9 ) ],
 "loop": true,
 "name": "NW",
@@ -173,6 +148,31 @@ animations = [ {
 "frames": [ ExtResource( 17 ), ExtResource( 18 ) ],
 "loop": true,
 "name": "S",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "E",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ) ],
+"loop": true,
+"name": "N",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 7 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "W",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 11 ), ExtResource( 10 ) ],
+"loop": true,
+"name": "SE",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 12 ), ExtResource( 13 ) ],
+"loop": true,
+"name": "SW",
 "speed": 5.0
 } ]
 
@@ -197,9 +197,19 @@ animations = [ {
 "name": "20",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 52 ) ],
+"frames": [ ExtResource( 45 ) ],
 "loop": true,
-"name": "0",
+"name": "6",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 71 ) ],
+"loop": true,
+"name": "56",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 56 ) ],
+"loop": true,
+"name": "1",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 39 ) ],
@@ -212,29 +222,19 @@ animations = [ {
 "name": "52",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 45 ) ],
-"loop": true,
-"name": "6",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 71 ) ],
-"loop": true,
-"name": "56",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 83 ) ],
 "loop": true,
 "name": "37",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 56 ) ],
-"loop": true,
-"name": "1",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 81 ) ],
 "loop": true,
 "name": "38",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 52 ) ],
+"loop": true,
+"name": "0",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 79 ) ],
@@ -257,54 +257,9 @@ animations = [ {
 "name": "41",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 96 ) ],
+"frames": [ ExtResource( 53 ) ],
 "loop": true,
-"name": "23",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 55 ) ],
-"loop": true,
-"name": "15",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 77 ) ],
-"loop": true,
-"name": "48",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 41 ) ],
-"loop": true,
-"name": "13",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 87 ) ],
-"loop": true,
-"name": "34",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 58 ) ],
-"loop": true,
-"name": "16",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 43 ) ],
-"loop": true,
-"name": "12",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 78 ) ],
-"loop": true,
-"name": "60",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 46 ) ],
-"loop": true,
-"name": "19",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 44 ) ],
-"loop": true,
-"name": "17",
+"name": "5",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 62 ) ],
@@ -312,74 +267,9 @@ animations = [ {
 "name": "54",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 97 ) ],
-"loop": true,
-"name": "24",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 94 ) ],
-"loop": true,
-"name": "25",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 54 ) ],
-"loop": true,
-"name": "10",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 95 ) ],
-"loop": true,
-"name": "22",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 53 ) ],
-"loop": true,
-"name": "5",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 66 ) ],
-"loop": true,
-"name": "43",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 68 ) ],
 "loop": true,
 "name": "57",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 88 ) ],
-"loop": true,
-"name": "33",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 63 ) ],
-"loop": true,
-"name": "49",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 90 ) ],
-"loop": true,
-"name": "27",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 65 ) ],
-"loop": true,
-"name": "58",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 86 ) ],
-"loop": true,
-"name": "31",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 84 ) ],
-"loop": true,
-"name": "39",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 74 ) ],
-"loop": true,
-"name": "45",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 51 ) ],
@@ -387,84 +277,9 @@ animations = [ {
 "name": "3",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 82 ) ],
+"frames": [ ExtResource( 58 ) ],
 "loop": true,
-"name": "35",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 38 ) ],
-"loop": true,
-"name": "2",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 49 ) ],
-"loop": true,
-"name": "9",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 93 ) ],
-"loop": true,
-"name": "29",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 69 ) ],
-"loop": true,
-"name": "59",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 61 ) ],
-"loop": true,
-"name": "47",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 67 ) ],
-"loop": true,
-"name": "51",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 70 ) ],
-"loop": true,
-"name": "53",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 85 ) ],
-"loop": true,
-"name": "32",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 42 ) ],
-"loop": true,
-"name": "14",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 40 ) ],
-"loop": true,
-"name": "18",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 50 ) ],
-"loop": true,
-"name": "11",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 64 ) ],
-"loop": true,
-"name": "55",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 80 ) ],
-"loop": true,
-"name": "36",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 60 ) ],
-"loop": true,
-"name": "42",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 48 ) ],
-"loop": true,
-"name": "21",
+"name": "16",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 72 ) ],
@@ -472,9 +287,14 @@ animations = [ {
 "name": "50",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 92 ) ],
+"frames": [ ExtResource( 97 ) ],
 "loop": true,
-"name": "28",
+"name": "24",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 86 ) ],
+"loop": true,
+"name": "31",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 76 ) ],
@@ -482,22 +302,202 @@ animations = [ {
 "name": "46",
 "speed": 5.0
 }, {
+"frames": [ ExtResource( 92 ) ],
+"loop": true,
+"name": "28",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 64 ) ],
+"loop": true,
+"name": "55",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 44 ) ],
+"loop": true,
+"name": "17",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 84 ) ],
+"loop": true,
+"name": "39",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 42 ) ],
+"loop": true,
+"name": "14",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 69 ) ],
+"loop": true,
+"name": "59",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 48 ) ],
+"loop": true,
+"name": "21",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 94 ) ],
+"loop": true,
+"name": "25",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 40 ) ],
+"loop": true,
+"name": "18",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 90 ) ],
+"loop": true,
+"name": "27",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 43 ) ],
+"loop": true,
+"name": "12",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 60 ) ],
+"loop": true,
+"name": "42",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 54 ) ],
+"loop": true,
+"name": "10",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 67 ) ],
+"loop": true,
+"name": "51",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 88 ) ],
+"loop": true,
+"name": "33",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 82 ) ],
+"loop": true,
+"name": "35",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 70 ) ],
+"loop": true,
+"name": "53",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 50 ) ],
+"loop": true,
+"name": "11",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 87 ) ],
+"loop": true,
+"name": "34",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 63 ) ],
+"loop": true,
+"name": "49",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 41 ) ],
+"loop": true,
+"name": "13",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 46 ) ],
+"loop": true,
+"name": "19",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 95 ) ],
+"loop": true,
+"name": "22",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 65 ) ],
+"loop": true,
+"name": "58",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 74 ) ],
+"loop": true,
+"name": "45",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 78 ) ],
+"loop": true,
+"name": "60",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 61 ) ],
+"loop": true,
+"name": "47",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 93 ) ],
+"loop": true,
+"name": "29",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 55 ) ],
+"loop": true,
+"name": "15",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 66 ) ],
+"loop": true,
+"name": "43",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 77 ) ],
+"loop": true,
+"name": "48",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 80 ) ],
+"loop": true,
+"name": "36",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 96 ) ],
+"loop": true,
+"name": "23",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 38 ) ],
+"loop": true,
+"name": "2",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 85 ) ],
+"loop": true,
+"name": "32",
+"speed": 5.0
+}, {
 "frames": [ ExtResource( 89 ) ],
 "loop": true,
 "name": "26",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 49 ) ],
+"loop": true,
+"name": "9",
 "speed": 5.0
 } ]
 
 [sub_resource type="SpriteFrames" id=4]
 animations = [ {
-"frames": [ ExtResource( 99 ) ],
-"loop": true,
-"name": "pointing",
-"speed": 5.0
-}, {
 "frames": [  ],
 "loop": true,
 "name": "blank",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 99 ) ],
+"loop": true,
+"name": "pointing",
 "speed": 5.0
 } ]
 
@@ -510,14 +510,14 @@ animations = [ {
 "name": "4",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 124 ) ],
-"loop": true,
-"name": "0",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 123 ) ],
 "loop": true,
 "name": "1",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 124 ) ],
+"loop": true,
+"name": "0",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 125 ) ],
@@ -553,14 +553,14 @@ animations = [ {
 "name": "hatched",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 33 ) ],
-"loop": false,
-"name": "egg",
-"speed": 5.0
-}, {
 "frames": [  ],
 "loop": true,
 "name": "dead",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 33 ) ],
+"loop": false,
+"name": "egg",
 "speed": 5.0
 } ]
 
@@ -1158,19 +1158,15 @@ shape = SubResource( 12 )
 
 [node name="1" type="AudioStreamPlayer" parent="Nest/cawRegion/Sounds"]
 stream = ExtResource( 130 )
-volume_db = 5.049
 
 [node name="2" type="AudioStreamPlayer" parent="Nest/cawRegion/Sounds"]
 stream = ExtResource( 132 )
-volume_db = 5.049
 
 [node name="3" type="AudioStreamPlayer" parent="Nest/cawRegion/Sounds"]
 stream = ExtResource( 129 )
-volume_db = 5.049
 
 [node name="4" type="AudioStreamPlayer" parent="Nest/cawRegion/Sounds"]
 stream = ExtResource( 131 )
-volume_db = 5.049
 
 [node name="World Bounds" type="StaticBody2D" parent="."]
 __meta__ = {
@@ -1251,11 +1247,11 @@ __meta__ = {
 }
 [connection signal="setScore" from="Player" to="Nest" method="_on_Player_setScore"]
 [connection signal="squawked" from="Player" to="EnemySpawner" method="_on_Player_squawked"]
-[connection signal="stopGame" from="Player/visualTimer" to="Player" method="_on_visualGameTimer_stopGame"]
-[connection signal="stopGame" from="Player/visualTimer" to="Nest/Egg1/HatchTimer" method="_on_visualGameTimer_stopGame"]
 [connection signal="stopGame" from="Player/visualTimer" to="Nest/HungerTimer" method="_on_visualGameTimer_stopGame"]
-[connection signal="stopGame" from="Player/visualTimer" to="EnemySpawner" method="_on_visualTimer_stopGame"]
+[connection signal="stopGame" from="Player/visualTimer" to="Nest/Egg1/HatchTimer" method="_on_visualGameTimer_stopGame"]
+[connection signal="stopGame" from="Player/visualTimer" to="Player" method="_on_visualGameTimer_stopGame"]
 [connection signal="stopGame" from="Player/visualTimer" to="EnemySpawner" method="_on_visualGameTimer_stopGame"]
+[connection signal="stopGame" from="Player/visualTimer" to="EnemySpawner" method="_on_visualTimer_stopGame"]
 [connection signal="timeout" from="Player/visualTimer/GameTimer" to="Player/visualTimer" method="_on_GameTimer_timeout"]
 [connection signal="timeout" from="Player/Squawk/SquawkTimer" to="Player" method="_on_SquawkTimer_timeout"]
 [connection signal="fruitGot" from="trees/Tree2" to="Player" method="_on_Tree_fruitGot"]
@@ -1318,15 +1314,15 @@ __meta__ = {
 [connection signal="timeout" from="EnemySpawner/SpawnTimer" to="EnemySpawner" method="_on_SpawnTimer_timeout"]
 [connection signal="timeout" from="EnemySpawner/LongSpawnTimer" to="EnemySpawner" method="_on_LongSpawnTimer_timeout"]
 [connection signal="pressed" from="start game" to="start game" method="_on_start_game_pressed"]
-[connection signal="start_timer" from="start game" to="Player" method="_on_start_game_start_timer"]
-[connection signal="start_timer" from="start game" to="Nest/Egg3/HatchTimer" method="_on_start_game_start_timer"]
-[connection signal="start_timer" from="start game" to="Nest/Egg1/HatchTimer" method="_on_start_game_start_timer"]
-[connection signal="start_timer" from="start game" to="Nest/HungerTimer" method="_on_start_game_start_timer"]
-[connection signal="start_timer" from="start game" to="Nest/Egg2/HatchTimer" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Player/visualTimer" method="_on_start_game_start_timer"]
 [connection signal="start_timer" from="start game" to="Nest/Egg4/HatchTimer" method="_on_start_game_start_timer"]
 [connection signal="start_timer" from="start game" to="Player/visualTimer/GameTimer" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Nest/Egg3/HatchTimer" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Nest/HungerTimer" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Nest/Egg2/HatchTimer" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Nest/Egg1/HatchTimer" method="_on_start_game_start_timer"]
 [connection signal="start_timer" from="start game" to="help" method="_on_start_game_start_timer"]
-[connection signal="start_timer" from="start game" to="Player/visualTimer" method="_on_start_game_start_timer"]
+[connection signal="start_timer" from="start game" to="Player" method="_on_start_game_start_timer"]
 [connection signal="start_timer" from="start game" to="EnemySpawner" method="_on_start_game_start_timer"]
 [connection signal="button_down" from="help" to="help/HelpText" method="_on_help_button_down"]
 [connection signal="button_up" from="help" to="help/HelpText" method="_on_help_button_up"]

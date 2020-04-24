@@ -26,31 +26,6 @@ animations = [ {
 "name": "NE",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 13 ), ExtResource( 18 ), ExtResource( 5 ) ],
-"loop": true,
-"name": "N",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 3 ), ExtResource( 4 ) ],
-"loop": true,
-"name": "SE",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 6 ), ExtResource( 14 ) ],
-"loop": true,
-"name": "E",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 8 ), ExtResource( 9 ) ],
-"loop": true,
-"name": "SW",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 10 ), ExtResource( 11 ) ],
-"loop": true,
-"name": "W",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 2 ), ExtResource( 16 ) ],
 "loop": true,
 "name": "NW",
@@ -60,6 +35,31 @@ animations = [ {
 "loop": true,
 "name": "S",
 "speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 14 ) ],
+"loop": true,
+"name": "E",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 13 ), ExtResource( 18 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "N",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 10 ), ExtResource( 11 ) ],
+"loop": true,
+"name": "W",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "SE",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "SW",
+"speed": 5.0
 } ]
 
 [sub_resource type="CircleShape2D" id=2]
@@ -67,7 +67,7 @@ radius = 0.0901537
 
 [sub_resource type="Curve2D" id=3]
 _data = {
-"points": PoolVector2Array( 0, 0, 0, 0, -52488, -16785.8, 0, 0, 0, 0, -23282, -27930.2, 0, 0, 0, 0, 38684.6, -28122.4, 0, 0, 0, 0, 60973.4, -23126.6, 0, 0, 0, 0, 71157.1, -7082.53, 0, 0, 0, 0, 58283.4, -24567.7, 0, 0, 0, 0, 30518.5, -26873.4, 0, 0, 0, 0, -24050.6, -27065.6, 0, 0, 0, 0, -46051.1, -18995.5, 0, 0, 0, 0, -52488, -16785.8 )
+"points": PoolVector2Array( 0, 0, 0, 0, -41279.9, -28023.9, 0, 0, 0, 0, -34362.7, -27927.8, 0, 0, 0, 0, -15820.7, -27639.6, 0, 0, 0, 0, -1890.22, -27927.8, 0, 0, 0, 0, 10791.4, -27447.4, 0, 0, 0, 0, 30101.9, -27543.5, 0, 0, 0, 0, 44993.2, -27255.3, 0, 0, 0, 0, 50565.4, -26774.9, 0, 0, 0, 0, -41279.9, -28023.9 )
 }
 
 [node name="Enemy" type="KinematicBody2D"]
@@ -96,7 +96,7 @@ shape = SubResource( 2 )
 curve = SubResource( 3 )
 
 [node name="flyAwayLocation" type="PathFollow2D" parent="flyAwayPath"]
-position = Vector2( -52488, -16785.8 )
-rotation = -0.363758
+position = Vector2( -41279.9, -28023.9 )
+rotation = 0.0146159
 [connection signal="timeout" from="WiggleTimer" to="." method="_on_WiggleTimer_timeout"]
 [connection signal="area_entered" from="hitBox" to="." method="_on_hitBox_area_entered"]
