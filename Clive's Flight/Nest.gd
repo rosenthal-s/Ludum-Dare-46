@@ -50,27 +50,27 @@ func _on_Player_setScore(score):
 func _on_Egg1_hatched():
 	hatched += 1
 	var waitTime = $HungerTimer.get_wait_time()
-	$HungerTimer.set_wait_time(waitTime-0.2)
+	$HungerTimer.set_wait_time(waitTime-0.3)
 	print("egg1 hatched")
 
 
 func _on_Egg2_hatched():
 	hatched += 1
 	var waitTime = $HungerTimer.get_wait_time()
-	$HungerTimer.set_wait_time(waitTime-0.2)
+	$HungerTimer.set_wait_time(waitTime-0.3)
 	print("egg2 hatched")
 	
 func _on_Egg3_hatched():
 	hatched += 1
 	var waitTime = $HungerTimer.get_wait_time()
-	$HungerTimer.set_wait_time(waitTime-0.2)
+	$HungerTimer.set_wait_time(waitTime-0.3)
 	print("egg3 hatched")
 
 
 func _on_Egg4_hatched():
 	hatched += 1
 	var waitTime = $HungerTimer.get_wait_time()
-	$HungerTimer.set_wait_time(waitTime-0.2)
+	$HungerTimer.set_wait_time(waitTime-0.3)
 	print("egg4 hatched")
 
 

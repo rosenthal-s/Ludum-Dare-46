@@ -6,10 +6,9 @@ extends RichTextLabel
 var buttonPressed = false
 signal stopGame
 
-
 var ms = 0
 var s = 0#10
-var m = 2#10
+var m = 10#10
 
 
 # Called when the node enters the scene tree for the first time.
@@ -27,7 +26,7 @@ func _process(delta):
 		if m <= 0 and s <=0:
 			buttonPressed = false
 			
-		set_text("Time: "+str(m)+":"+str(s))
+		$Timer.play(str(10-m))
 		
 	if m <=0 and s <=0:
 		emit_signal("stopGame")
